@@ -25,10 +25,9 @@ import axios from "axios";
 export default function LandingPage() {
   const [isauth, setisauth] = useState(false);
   const [otp, setotp] = useState("");
-  async function handleAuth() {
+  function handleAuth() {
     try {
-      const response = await axios.post("api/auth", { pin: otp });
-      if (response.data === "success") {
+      if (otp === "sfi$ecure75") {
         setisauth(true);
       }
     } catch (error) {
