@@ -31,36 +31,36 @@ const LandingNavbar = async () => {
 
           <div className="hidden items-center space-x-4 sm:flex">
             <>
-                
-              <Link
-                href="https://aayus.me/sfi_spotify"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "sm",
-                })}
-              >
-              
-              <FaSpotify  className="h-4 w-4"/>
-              </Link>
-              <Link
-                href="https://aayus.me/sfi_insta"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "sm",
-                })}
-              >
-              <FaInstagram  className="h-4 w-4"/>
-              </Link>
-            
-              <Link
-                href="https://aayus.me/sfi_yt"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "sm",
-                })}
-              >
-              <FaYoutube  className="h-4 w-4"/>
-              </Link>
+              <div className="space-x-1">
+                <Link
+                  href="https://aayus.me/sfi_spotify"
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  <FaSpotify className="h-4 w-4" />
+                </Link>
+                <Link
+                  href="https://aayus.me/sfi_insta"
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  <FaInstagram className="h-4 w-4" />
+                </Link>
+
+                <Link
+                  href="https://aayus.me/sfi_yt"
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  <FaYoutube className="h-4 w-4" />
+                </Link>
+              </div>
               <Link
                 href={"#team"}
                 className={buttonVariants({
