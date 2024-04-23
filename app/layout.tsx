@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Suspense } from "react";
+import { VercelToolbar } from "@vercel/toolbar/next";
 
 const inter = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -29,6 +31,9 @@ export default function RootLayout({
         >
           
           {children}
+          <Suspense>
+            <VercelToolbar/>
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>
