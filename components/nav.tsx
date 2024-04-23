@@ -2,6 +2,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { ArrowRight, Feather } from "lucide-react";
 import Image from "next/image";
+import { FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
 
 const LandingNavbar = async () => {
   return (
@@ -30,14 +31,35 @@ const LandingNavbar = async () => {
 
           <div className="hidden items-center space-x-4 sm:flex">
             <>
+                
               <Link
-                href="#learnmore"
+                href="https://aayus.me/sfi_spotify"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "sm",
                 })}
               >
-                About
+              
+              <FaSpotify  className="h-4 w-4"/>
+              </Link>
+              <Link
+                href="https://aayus.me/sfi_insta"
+                className={buttonVariants({
+                  variant: "ghost",
+                  size: "sm",
+                })}
+              >
+              <FaInstagram  className="h-4 w-4"/>
+              </Link>
+            
+              <Link
+                href="https://aayus.me/sfi_yt"
+                className={buttonVariants({
+                  variant: "ghost",
+                  size: "sm",
+                })}
+              >
+              <FaYoutube  className="h-4 w-4"/>
               </Link>
               <Link
                 href={"#team"}
