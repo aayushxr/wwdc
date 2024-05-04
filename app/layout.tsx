@@ -31,9 +31,6 @@ export default function RootLayout({
         >
           
           {children}
-          <Suspense>
-            <VercelToolbar/>
-          </Suspense>
         </ThemeProvider>
       </body>
     </html>

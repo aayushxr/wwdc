@@ -21,46 +21,8 @@ export default function LandingPage() {
          items-center justify-between bg-black/[0.96] antialiased container relative overflow-hidden"
         >
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-950 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)]"></div>
-          {/* <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-zinc-900 bg-zinc-950 px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
-            <p className="text-sm font-semibold text-zinc-100">
-              This build of Lecture is a private beta
-            </p>
-          </div>
-          <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-            <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-              Trasnform your Education
-            </h1>
-            <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-              Welcome to lecture, your portal to a new educational experience
-              through live transcript and post-lecture summaries tailored to
-              your needs
-            </p>
-            <div className="w-full space-x-2 flex justify-center items-center">
-              <Link
-                className={buttonVariants({
-                  size: "lg",
-                  className: "mt-5",
-                })}
-                href="/dashboard"
-                target="_blank"
-              >
-                Get started <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-              <Link
-                className={buttonVariants({
-                  size: "lg",
-                  variant: "outline",
-                  className: "mt-5",
-                })}
-                href="/pricing"
-                target="_blank"
-              >
-                Learn more <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </div>
-          </div> */}
-          <div className="flex items-center w-full lg:w-1/2">
-            <div className="max-w-2xl mb-8">
+          <div className="flex items-center z-20  w-full lg:w-1/2">
+            <div className="max-w-2xl  mb-8">
               <h1 className="text-4xl font-bold leading-snug tracking-tight text-zinc-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                 Welcome to Straightforward Insight
               </h1>

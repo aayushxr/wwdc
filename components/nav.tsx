@@ -80,13 +80,13 @@ const LandingNavbar = async () => {
                 Newsroom
               </Link>
               <Link
-                href="https://aayus.me/sfi_insta"
+                href="https://donate.stripe.com/3cs5kx9O06KSgpO4gg"
                 className={buttonVariants({
                   size: "sm",
                   variant: "geist",
                 })}
               >
-                Contact <ArrowRight className="ml-1.5 h-5 w-5" />
+                Donate <ArrowRight className="ml-1.5 h-5 w-5" />
               </Link>
             </>
           </div>
