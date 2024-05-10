@@ -14,7 +14,7 @@ const inter = Poppins({
 export const metadata: Metadata = {
   title: "War of Words Debating Championship",
   description:
-    "desc",
+    "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
 };
 
 export default function RootLayout({

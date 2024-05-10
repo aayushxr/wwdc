@@ -12,10 +12,10 @@ export default function LandingPage() {
         <div className="container h-full items-center justify-center flex">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
           <div className="flex items-center justify-center z-20  max-w-6xl">
-            <div className=" ">
+            <div className=" flex flex-col items-center">
               <div
                 aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 -top-[-2rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[1rem]"
+                className="pointer-events-none absolute inset-x-0 -top-[-2rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[17rem]"
               >
                 <div
                   style={{
@@ -28,7 +28,7 @@ export default function LandingPage() {
               <h1 className="text-6xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                 War of Words Debating Championship
               </h1>
-              <p className="py-5 text-lg text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
+              <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
               An inter-school debate tournament organised by DPS MIS for all high school students in Qatar 
               </p>
               <div className="w-full space-x-2 flex justify-center items-center">
