@@ -1,10 +1,12 @@
 import LandingNavbar from "@/components/nav";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function LandingPage() {
   return (
-    <main className="flex-1 justify-center h-full items-center flex-col">
+    <main className="justify-center h-full items-center flex-col">
       <div className="container h-full items-center justify-center flex">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
         <div className="flex items-center justify-center z-20  max-w-6xl">
@@ -27,30 +29,29 @@ export default function LandingPage() {
             <p className="py-5 text-lg text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
               short desc abt the event
             </p>
-            <div className="relative flex z-50 items-center justify-center  ">
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 -top-[-2rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[1rem]"
+            <div className="w-full space-x-2 flex justify-center items-center">
+              <Link
+                className={buttonVariants({
+                  size: "lg",
+                  variant: "geist",
+                  className: "mt-5",
+                })}
+                href={"/"}
+                target="_blank"
               >
-                <div
-                  style={{
-                    clipPath:
-                      "polygon(53.07% 59.99%, 69.1% 55.2%, 80.95% 51.12%, 76.01% 27.81%, 59.67% 14.69%, 39.56% 38.02%, 26.58% 55.71%, 16.95% 56.85%, 1.12% 6.08%, 38.59% 24.23%, 31.21% 50.25%, 24.32% 52.01%, 35.66% 56.69%, 36.18% 58.79%, 40.65% 58.07%, 55.65% 53.51%)",
-                  }}
-                  className="relative left-[calc(50%-2rem)] aspect-[1155/678] w-[38.125rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-[#3ab454] to-[#10b44f] opacity-30 sm:left-[calc(50%-2rem)] sm:w-[72.1875rem]"
-                />
-              </div>
-              <video
-                controls
-                autoPlay
-                className="aspect-video relative md:max-w-2xl  rounded-md"
+                Team Registrations <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+              <Link
+                className={buttonVariants({
+                  size: "lg",
+                  variant: "outline",
+                  className: "mt-5",
+                })}
+                href="/schedule"
+                target="_blank"
               >
-                <source
-                  src="https://cdn.aayus.me/uploads/37.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
+                Schedule <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
             </div>
           </div>
         </div>

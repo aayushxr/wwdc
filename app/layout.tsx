@@ -12,9 +12,9 @@ const inter = Poppins({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "Straightforward Insight",
+  title: "War of Words Debate Championship",
   description:
-    "A dynamic student-led organization which is committed to providing invaluable insights to a diverse range of questions. We serve as abridge, connecting eager students with pre-existing organizations to offer them unique opportunities for growth and learning.",
+    "desc",
 };
 
 export default function RootLayout({

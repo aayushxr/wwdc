@@ -32,12 +32,6 @@ const LandingNavbar = () => {
             </span>
           </Link>
           <Menu setActive={setActive}>
-            <MenuItem setActive={setActive} active={active} item="Welcome">
-              <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/web-dev">About us</HoveredLink>
-                <HoveredLink href="/interface-design">Our Leaders</HoveredLink>
-              </div>
-            </MenuItem>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -46,19 +40,30 @@ const LandingNavbar = () => {
               <div className="  text-sm grid grid-cols-2 gap-10 p-4">
                 <ProductItem
                   title="2023"
-                  href="/2022/tournament"
+                  href="/2023"
                   src="https://assets.aceternity.com/demos/algochurn.webp"
                   description="The 2023 edition of the War of the Words Debate Tournament."
                 />
                 <ProductItem
                   title="2022"
-                  href="/2022/motions"
+                  href="/2022"
                   src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
                   description="The 2022 edition of the War of the Words Debate Tournament."
                 />
               </div>
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="References">
+              <div className="flex flex-col space-y-4 text-sm">
+                <HoveredLink href="/references/briefings">
+                  Briefings cum references
+                </HoveredLink>
+                <HoveredLink href="/references/samples">
+                  Sample Debates
+                </HoveredLink>
+                <HoveredLink href="/references">Other References</HoveredLink>
+              </div>
+            </MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Information">
               <div className="flex flex-col space-y-4 text-sm">
                 <HoveredLink href="/references/briefings">
                   Briefings cum references
