@@ -32,6 +32,7 @@ const LandingNavbar = () => {
             </span>
           </Link>
           <Menu setActive={setActive}>
+          <HoveredLink href="/about">About us</HoveredLink>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -53,17 +54,6 @@ const LandingNavbar = () => {
               </div>
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="References">
-              <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/references/briefings">
-                  Briefings cum references
-                </HoveredLink>
-                <HoveredLink href="/references/samples">
-                  Sample Debates
-                </HoveredLink>
-                <HoveredLink href="/references">Other References</HoveredLink>
-              </div>
-            </MenuItem>
-            <MenuItem setActive={setActive} active={active} item="Information">
               <div className="flex flex-col space-y-4 text-sm">
                 <HoveredLink href="/references/briefings">
                   Briefings cum references

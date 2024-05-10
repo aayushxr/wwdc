@@ -12,7 +12,7 @@ const inter = Poppins({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "War of Words Debate Championship",
+  title: "War of Words Debating Championship",
   description:
     "desc",
 };
