@@ -6,7 +6,7 @@ import { ArrowRight, Feather, Info } from "lucide-react";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./navbar";
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ThemeToggle } from "./theme-toggle";
 import Contact from "./contact";
@@ -14,7 +14,12 @@ import MobileNav from "./mobile-nav";
 import { toast } from "sonner";
 
 const LandingNavbar = () => {
-  setTimeout(() => {
+  
+
+  const [active, setActive] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
     toast(
       "Click on the images of the Organising Committee Members to know more about them.",
       {
@@ -29,9 +34,8 @@ const LandingNavbar = () => {
         duration: 10000,
       }
     );
-  });
-
-  const [active, setActive] = useState<string | null>(null);
+  }, [setMounted]);
+  if (!mounted) return null;
   return (
     <nav className="sticky h-[4rem] flex items-center inset-x-0 top-0 z-30 w-full bg-transparent backdrop-blur-lg transition-all">
       <div className="container">
@@ -167,9 +171,7 @@ const LandingNavbar = () => {
               </Link>
               <ThemeToggle />
             </div>
-            <Suspense>
               <Contact />
-            </Suspense>
           </div>
           <div className="md:hidden ml-auto">
             <MobileNav />
