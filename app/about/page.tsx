@@ -1,8 +1,28 @@
-import Page from "@/components/header";
+"use client"
+import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
+import { useEffect } from "react";
+import { toast } from "sonner";
 
 export default function About() {
-  return (
+  useEffect(() => {
+    toast(
+      "Click on the images of the Organising Committee Members to know more about them.",
+      {
+        action: (
+          <Link
+            className={buttonVariants({ size: "sm", variant: "geist" })}
+            href={"#team"}
+          >
+            Check it out
+          </Link>
+        ),
+        duration: 15000,
+      }
+    );
+  }, []);
+    return (
     <main className="flex-1 flex-col">
       <div className="container h-full flex">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>

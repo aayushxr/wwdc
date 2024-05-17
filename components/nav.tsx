@@ -19,22 +19,7 @@ const LandingNavbar = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
-  useEffect(() => {
-    toast(
-      "Click on the images of the Organising Committee Members to know more about them.",
-      {
-        action: (
-          <Link
-            className={buttonVariants({ size: "sm", variant: "geist" })}
-            href={"#team"}
-          >
-            Check it out
-          </Link>
-        ),
-        duration: 10000,
-      }
-    );
-  }, []);
+ 
   if (!mounted) return null;
   return (
     <nav className="sticky h-[4rem] flex items-center inset-x-0 top-0 z-30 w-full bg-transparent backdrop-blur-lg transition-all">
