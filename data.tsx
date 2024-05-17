@@ -96,7 +96,7 @@ const org = [
   {
     image: "https://cdn.aayus.me/logo.png",
     name: "Daiwik Dhar",
-    bio: [],
+    bio: ["Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years. He’s passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success."],
   },
   {
     image: "https://cdn.aayus.me/uploads/Venus_Photograph_New.png",
