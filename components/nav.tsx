@@ -2,17 +2,35 @@
 
 import Link from "next/link";
 import { Button, buttonVariants } from "./ui/button";
-import { ArrowRight, Feather } from "lucide-react";
+import { ArrowRight, Feather, Info } from "lucide-react";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaSpotify, FaYoutube } from "react-icons/fa";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./navbar";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ThemeToggle } from "./theme-toggle";
 import Contact from "./contact";
 import MobileNav from "./mobile-nav";
+import { toast } from "sonner";
 
 const LandingNavbar = () => {
+  setTimeout(() => {
+    toast(
+      "Click on the images of the Organising Committee Members to know more about them.",
+      {
+        action: (
+          <Link
+            className={buttonVariants({ size: "sm", variant: "geist" })}
+            href={"#team"}
+          >
+            Check it out
+          </Link>
+        ),
+        duration: 10000,
+      }
+    );
+  });
+
   const [active, setActive] = useState<string | null>(null);
   return (
     <nav className="sticky h-[4rem] flex items-center inset-x-0 top-0 z-30 w-full bg-transparent backdrop-blur-lg transition-all">
@@ -149,7 +167,9 @@ const LandingNavbar = () => {
               </Link>
               <ThemeToggle />
             </div>
-            <Contact />
+            <Suspense>
+              <Contact />
+            </Suspense>
           </div>
           <div className="md:hidden ml-auto">
             <MobileNav />

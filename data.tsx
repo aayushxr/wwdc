@@ -10,7 +10,8 @@ const leaders = [
     position: "Vice Principal, Secondary School",
   },
 ];
-const core = [
+
+const coreteach = [
   {
     image: "https://cdn.aayus.me/logo.png",
     name: "Ms. Jasmeet Kaur",
@@ -24,6 +25,9 @@ const core = [
       "Being an active member of Debate club has helped her to enhance her knowledge about current events and improved her perspectives on different topics. She believes debates can help children to understand the art of persuasion and argumentation,and its encourage their critical thinking.",
     ],
   },
+];
+
+const core = [
   {
     image: "https://cdn.aayus.me/logo.png",
     name: "Prithwiraj Purkait",
@@ -48,7 +52,8 @@ const core = [
     bio: [],
   },
 ];
-const org = [
+
+const orgteach = [
   {
     image: "https://cdn.aayus.me/logo.png",
     name: "Ms. Steffi Francis",
@@ -63,6 +68,9 @@ const org = [
     name: "Mr. Somusundaram",
     bio: [],
   },
+];
+
+const org = [
   {
     image: "https://cdn.aayus.me/uploads/Vyusti_Singh.jpg",
     name: "Vyusti Singh",
@@ -102,4 +110,4 @@ const org = [
   },
 ];
 
-export { leaders, core, org };
+export { leaders, core, org, coreteach, orgteach};

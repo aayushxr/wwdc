@@ -19,7 +19,7 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { Button } from "./ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Mail, Phone } from "lucide-react";
 export default function Contact() {
   return (
     <>
@@ -35,6 +35,23 @@ export default function Contact() {
               <DialogTitle>Contact us</DialogTitle>
               <DialogDescription></DialogDescription>
             </DialogHeader>
+            <div className="space-y-4">
+              <div className="flex items-center justify-start">
+                <Mail className="h-4 w-4 mr-2" /> Email: wwwdc.dpsmis@gmail.com{" "}
+              </div>
+              <div className="flex items-center justify-start">
+                <Phone className="h-4 w-4 mr-2" /> Ms. Jasmeet Kaur: +974 7709
+                3477{" "}
+              </div>
+              <div className="flex items-center justify-start">
+                <Phone className="h-4 w-4 mr-2" /> Prithwiraj Purkait: +974 3313
+                0564{" "}
+              </div>
+              <div className="flex items-center justify-start">
+                <Phone className="h-4 w-4 mr-2" /> Mehull Girdhar: +974 6633
+                5710{" "}
+              </div>
+            </div>
             <DialogFooter>
               <DialogClose>
                 <Button variant="outline">Close</Button>
@@ -53,12 +70,25 @@ export default function Contact() {
           <DrawerContent>
             <DrawerHeader>
               <DrawerTitle>Contact us</DrawerTitle>
-              <DrawerDescription>
-                This action cannot be undone.
-              </DrawerDescription>
             </DrawerHeader>
+            <div className="space-y-4">
+              <div className="flex items-center justify-start">
+                <Mail className="h-4 w-4 mr-2" /> Email: wwwdc.dpsmis@gmail.com{" "}
+              </div>
+              <div className="flex items-center justify-start">
+                <Phone className="h-4 w-4 mr-2" /> Ms. Jasmeet Kaur: +974 7709
+                3477{" "}
+              </div>
+              <div className="flex items-center justify-start">
+                <Phone className="h-4 w-4 mr-2" /> Prithwiraj Purkait: +974 3313
+                0564{" "}
+              </div>
+              <div className="flex items-center justify-start">
+                <Phone className="h-4 w-4 mr-2" /> Mehull Girdhar: +974 6633
+                5710{" "}
+              </div>
+            </div>
             <DrawerFooter>
-              <Button>Submit</Button>
               <DrawerClose>
                 <Button variant="outline">Close</Button>
               </DrawerClose>

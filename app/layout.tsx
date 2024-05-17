@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { VercelToolbar } from "@vercel/toolbar/next";
 import LandingNavbar from "@/components/nav";
 import Link from "next/link";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -54,6 +55,7 @@ export default function RootLayout({
             </footer>
           </div>
         </ThemeProvider>
+        <Toaster/>
       </body>
     </html>
   );
