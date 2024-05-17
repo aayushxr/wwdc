@@ -14,12 +14,26 @@ import MobileNav from "./mobile-nav";
 import { toast } from "sonner";
 
 const LandingNavbar = () => {
-  
-
   const [active, setActive] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);
+  }, []);
+  useEffect(() => {
+    toast(
+      "Click on the images of the Organising Committee Members to know more about them.",
+      {
+        action: (
+          <Link
+            className={buttonVariants({ size: "sm", variant: "geist" })}
+            href={"#team"}
+          >
+            Check it out
+          </Link>
+        ),
+        duration: 10000,
+      }
+    );
   }, []);
   if (!mounted) return null;
   return (
@@ -157,7 +171,7 @@ const LandingNavbar = () => {
               </Link>
               <ThemeToggle />
             </div>
-              <Contact />
+            <Contact />
           </div>
           <div className="md:hidden ml-auto">
             <MobileNav />
