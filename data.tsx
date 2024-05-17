@@ -29,7 +29,8 @@ const coreteach = [
 
 const core = [
   {
-    image: "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
+    image:
+      "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
     name: "Prithwiraj Purkait",
     bio: [
       "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
@@ -46,7 +47,8 @@ const core = [
     image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
     name: "Nikkil Dcruz",
     bio: [
-      "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit. As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
+      "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit.",
+      " As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
       "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims. to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
     ],
   },
@@ -79,7 +81,8 @@ const org = [
     image: "https://cdn.aayus.me/uploads/Vyusti_Singh.jpg",
     name: "Vyusti Singh",
     bio: [
-      "Vyusti's prowess in debate is evident through numerous accolades, including top speaker awards in prestigious competitions such as the British Parliamentary Open Qatar Debate 2023, Qatar Debate Open 2023, and QSDL-1 and QSDL-2 of 2023. Vyusti has showcased their skills on an international stage, reaching the semi-finals and quarter-finals of WSDC debates.",
+      "Vyusti's prowess in debate is evident through numerous accolades, including top speaker awards in prestigious competitions such as the British Parliamentary Open Qatar Debate 2023, Qatar Debate Open 2023, and QSDL-1 and QSDL-2 of 2023.",
+      " Vyusti has showcased their skills on an international stage, reaching the semi-finals and quarter-finals of WSDC debates.",
       "Furthermore, Vyusti contributes to the debate community as a judge in QPSDL leagues, where she offers her expertise to aspiring debaters. Vyusti understands the importance of nurturing the next generation of debaters and promoting the values of critical thinking and effective communication.",
     ],
   },
@@ -101,7 +104,8 @@ const org = [
     image: "https://cdn.aayus.me/logo.png",
     name: "Daiwik Dhar",
     bio: [
-      "Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years. He’s passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success.",
+      "Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years.",
+      "He's passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success."
     ],
   },
   {
