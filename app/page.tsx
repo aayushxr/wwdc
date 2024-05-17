@@ -1,6 +1,6 @@
-import LandingNavbar from "@/components/nav";
-import { Button, buttonVariants } from "@/components/ui/button";
-import { core, leaders, org } from "@/data";
+import Committee from "@/components/committee";
+import { buttonVariants } from "@/components/ui/button";
+import { leaders} from "@/data";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,7 +29,8 @@ export default function LandingPage() {
                 War of Words Debating Championship
               </h1>
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-              An inter-school debate tournament organised by DPS MIS for all high school students in Qatar 
+                An inter-school debate tournament organised by DPS MIS for all
+                high school students in Qatar
               </p>
               <div className="w-full space-x-2 flex justify-center items-center">
                 <Link
@@ -38,7 +39,7 @@ export default function LandingPage() {
                     variant: "geist",
                     className: "mt-5",
                   })}
-                  href={"/"}
+                  href={"https://docs.google.com/forms/d/e/1FAIpQLSfebYLzpSeltnJlFZUhfZBn0EbuqPRlxWYIs7yz2K8JrT-00A/viewform?usp=sf_link"}
                   target="_blank"
                 >
                   Team Registrations <ArrowRight className="ml-2 h-5 w-5" />
@@ -47,7 +48,7 @@ export default function LandingPage() {
                   className={buttonVariants({
                     size: "lg",
                     variant: "outline",
-                    className: "mt-5",
+                    className: "mt-5 ",
                   })}
                   href="/schedule"
                   target="_blank"
@@ -70,7 +71,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="container gap-8 flex flex-col flex-wrap justify-center">
-        <div className="relative z-50">
+          <div className="relative z-50">
             <div className="m-4">
               <div className="flex flex-col items-center justify-center text-center">
                 <Image
@@ -83,13 +84,14 @@ export default function LandingPage() {
                 <div className="text-lg mt-3 font-semibold">
                   Ms. Asna Nafees
                 </div>
+                <div className="text-md font-medium">Principal</div>
                 <div className="text-md font-medium">
-                  Principal, DPS Modern Indian School
+                  DPS Modern Indian School
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex gap-x-8">
+          <div className="grid grid-cols-2 gap-x-8">
             {leaders.map((member, index) => (
               <div key={index} className="m-4">
                 <div className="flex flex-col items-center justify-center text-center">
@@ -103,73 +105,19 @@ export default function LandingPage() {
                   <div className="text-lg mt-3 font-semibold">
                     {member.name}
                   </div>
-                  <div className="text-md font-medium">{member.position}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className="relative z-50">
-        <div className="mx-auto max-w-7xl px-4  py-10 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Our Core Organising Committee
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div className="container gap-8 relative z-50 flex flex-col flex-wrap justify-center">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8">
-            {core.map((member, index) => (
-              <div key={index} className="m-4">
-                <div className="flex flex-col items-center justify-center text-center">
-                  <Image
-                    src={member.image}
-                    width={200}
-                    height={200}
-                    alt={member.name}
-                    className="rounded-full aspect-square md:h-32 md:w-32 object-cover"
-                  />
-                  <div className="text-lg mt-3 font-semibold">
-                    {member.name}
+                  <div className="text-md  max-w-96  font-medium">
+                    {member.position}
                   </div>
-                  <div className="text-md font-medium">{member.position}</div>
+                  <div className="text-md font-medium">
+                    DPS Modern Indian School
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-7xl px-4 relative z-50 py-10 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Our Organising Committee
-            </h2>
-          </div>
-        </div>
-      </div>
-      <div className="container gap-8 pb-5 relative z-50 flex flex-col flex-wrap justify-center">
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-x-8">
-          {org.map((member, index) => (
-            <div key={index} className="m-4">
-              <div className="flex flex-col items-center justify-center text-center">
-                <Image
-                  src={member.image}
-                  width={200}
-                  height={200}
-                  alt={member.name}
-                  className="rounded-full aspect-square md:h-32 md:w-32 object-cover"
-                />
-                <div className="text-lg mt-3 font-semibold">{member.name}</div>
-                <div className="text-md font-medium">{member.position}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      <Committee/>
     </>
   );
 }

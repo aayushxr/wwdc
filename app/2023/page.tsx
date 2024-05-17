@@ -3,7 +3,7 @@ import Page from "@/components/header";
 import { InfiniteMovingCards } from "@/components/moving-cards";
 import Link from "next/link";
 
-export default function Breif() {
+export default function TwentyThree() {
   const testimonials = [
     {
       name: "1",
@@ -23,9 +23,9 @@ export default function Breif() {
     },
   ];
   return (
-    <Page title="War of Words 2023" desc="breif">
+    <Page title="War of Words 2023" desc="">
       <div className="flex flex-col">
-        <div className="flex items-center justify-between">
+        {/* <div className="flex items-center justify-between">
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
             <p className="text-semibold sm:text-xl text-black  mb-2 dark:text-neutral-200">
               Tournament Details
@@ -71,7 +71,7 @@ export default function Breif() {
             direction="right"
             speed="slow"
           />
-        </div>
+        </div> */}
       </div>
     </Page>
   );
