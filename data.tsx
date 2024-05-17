@@ -29,9 +29,13 @@ const coreteach = [
 
 const core = [
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
     name: "Prithwiraj Purkait",
-    bio: [],
+    bio: [
+      "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
+      " He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
+      "For him, Debate requires hard work & motivation but an immense amount of knowledge, critical thinking and connections built last a lifetime.",
+    ],
   },
   {
     image: "https://cdn.aayus.me/logo.png",
@@ -96,7 +100,9 @@ const org = [
   {
     image: "https://cdn.aayus.me/logo.png",
     name: "Daiwik Dhar",
-    bio: ["Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years. He’s passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success."],
+    bio: [
+      "Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years. He’s passionate about technology, economics and loves binge watching Netflix series in his free time. He hopes the event will be a huge success.",
+    ],
   },
   {
     image: "https://cdn.aayus.me/uploads/Venus_Photograph_New.png",
@@ -110,4 +116,4 @@ const org = [
   },
 ];
 
-export { leaders, core, org, coreteach, orgteach};
+export { leaders, core, org, coreteach, orgteach };
