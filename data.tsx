@@ -43,7 +43,7 @@ const core = [
     name: "Nikkil Dcruz",
     bio: [
       "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit. As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
-      "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aiMs. to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
+      "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims. to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
     ],
   },
   {

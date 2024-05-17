@@ -10,7 +10,7 @@ export default function About() {
           <div className=" pt-28 ">
             <div className="flex items-center justify-center gap-x-5 max-w-4xl">
               <Image
-                src="https://cdn.aayus.me/logo.png"
+                src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
                 alt="DPS Modern Indian School Debate Club"
                 height={100}
                 width={100}

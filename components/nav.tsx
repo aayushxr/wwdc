@@ -47,7 +47,7 @@ const LandingNavbar = () => {
             <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-zinc-100">
               <span>
                 <Image
-                  src="https://cdn.aayus.me/uploads/logo.png"
+                  src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
                   alt="N"
                   width="24"
                   height="24"
