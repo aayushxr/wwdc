@@ -34,7 +34,7 @@ const LandingNavbar = () => {
         duration: 10000,
       }
     );
-  }, [setMounted]);
+  }, []);
   if (!mounted) return null;
   return (
     <nav className="sticky h-[4rem] flex items-center inset-x-0 top-0 z-30 w-full bg-transparent backdrop-blur-lg transition-all">
