@@ -1,3 +1,5 @@
+'use client'
+
 import {
   Dialog,
   DialogClose,
@@ -30,8 +32,25 @@ import {
 import { toast } from "sonner";
 import { Info } from "lucide-react";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Committee() {
+  useEffect(() => {
+    toast(
+      "Click on the images of the Organising Committee Members to know more about them.",
+      {
+        action: (
+          <Link
+            className={buttonVariants({ size: "sm", variant: "geist" })}
+            href={"#team"}
+          >
+            Check it out
+          </Link>
+        ),
+        duration: 10000,
+      }
+    );
+  }, []);
   return (
     <>
       <div id="team" className="relative z-50">
