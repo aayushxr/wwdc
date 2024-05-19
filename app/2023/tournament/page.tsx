@@ -30,11 +30,10 @@ export default function Breif() {
     },
   ];
   return (
-    <Page title="War of Words Debating Championship 2022" desc="">
+    <Page title="War of Words 2023" desc="breif">
       <div className="flex flex-col">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="flex items-center justify-center">
-          <Card className="m-5 h-5/6 w-full max-w-md">
+        <div className="flex items-center justify-between">
+          <Card>
             <CardHeader>
               <CardTitle>Champions & Runner-up</CardTitle>
             </CardHeader>
@@ -67,22 +66,24 @@ export default function Breif() {
               </div>
             </CardContent>
           </Card>
-          </div>
-          <div className="flex items-center justify-center">
-          <Card className="m-5  w-full max-w-md">
+          <Card>
             <CardHeader>
               <CardTitle>Tournament Details</CardTitle>
               <CardDescription>
-                War of Words Debating Championship 2022
+                War of Words Debate Championship 2022
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
+              <div className="flex items-center justify-between">
+                <p className="font-medium">Tournament Name:</p>
+                <p>War of Words Debate Championship 2022</p>
+              </div>
               <div className="flex items-center justify-between">
                 <p className="font-medium">Dates:</p>
                 <p>November 4-6, 2023</p>
               </div>
               <div className="flex items-center justify-between">
-                <p className="font-medium">Mode:</p>
+                <p className="font-medium">Mode of tournament:</p>
                 <p>Online (Zoom + Discord)</p>
               </div>
               <div className="flex items-center justify-between">
@@ -91,16 +92,15 @@ export default function Breif() {
               </div>
               <div className="flex items-center justify-between">
                 <p className="font-medium">Results:</p>
-                <Link className="underline" href={"https://warofwords2022.calicotab.com/wwdc22/"}>
+                <Link href={"https://warofwords2022.calicotab.com/wwdc22/"}>
                   Visit
                 </Link>
               </div>
             </CardContent>
           </Card>
-          </div>
         </div>
 
-        <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-black dark:bg-dot-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
           {/* <InfiniteMovingCards
             items={testimonials}
             direction="right"
