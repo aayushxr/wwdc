@@ -1,11 +1,13 @@
 const leaders = [
   {
-    image: "https://cdn.aayus.me/uploads/45653f_85ef9403b5b247a78e5b4cc4d0ea00b1mv2.png",
+    image:
+      "https://cdn.aayus.me/uploads/45653f_85ef9403b5b247a78e5b4cc4d0ea00b1mv2.png",
     name: "Ms. Soma Bhattacharjee",
     position: "Vice Principal, Senior Secondary School",
   },
   {
-    image: "https://cdn.aayus.me/uploads/45653f_15b67502b0424b60bf3a8cde3042537fmv2.png",
+    image:
+      "https://cdn.aayus.me/uploads/45653f_15b67502b0424b60bf3a8cde3042537fmv2.png",
     name: "Ms. Mary Cruz",
     position: "Vice Principal, Secondary School",
   },
@@ -108,7 +110,7 @@ const org = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/arch.png",
     name: "Archit Chhikara",
     bio: [
       "Archit Chhikara, a Grade XI student, brings over three years of experience to the debate club, where his prowess has earned him accolades such as the Best Speaker award from Qatar Debate, alongside numerous national and international honors.",
@@ -147,7 +149,8 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://static.wixstatic.com/media/45653f_f09f45420cfc4f299064ac993b41a6cb~mv2.jpg/v1/crop/x_9,y_0,w_1047,h_1155/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
+      image:
+        "https://static.wixstatic.com/media/45653f_f09f45420cfc4f299064ac993b41a6cb~mv2.jpg/v1/crop/x_9,y_0,w_1047,h_1155/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
       name: "Gauri Gupta",
       bio: [
         "Currently, the Director Debate of the school debate club , with 7 years of extensive debating experience.",
@@ -156,7 +159,8 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://static.wixstatic.com/media/45653f_44c00e3be0d14c268567a3a335bf51ab~mv2.jpeg/v1/crop/x_0,y_8,w_447,h_493/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_09%20AM%20(1).jpeg",
+      image:
+        "https://static.wixstatic.com/media/45653f_44c00e3be0d14c268567a3a335bf51ab~mv2.jpeg/v1/crop/x_0,y_8,w_447,h_493/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_09%20AM%20(1).jpeg",
       name: "Jereni Cathreen Jeyakaran",
       bio: [
         "Jereni is an earnest high school student who actively takes part in contestable debating along with other scholastic and co-scholastic activities.",
@@ -164,7 +168,8 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://static.wixstatic.com/media/45653f_50b6d114ccad481ca14ae564b181640e~mv2.jpg/v1/crop/x_0,y_1,w_435,h_480/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
+      image:
+        "https://static.wixstatic.com/media/45653f_50b6d114ccad481ca14ae564b181640e~mv2.jpg/v1/crop/x_0,y_1,w_435,h_480/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
       name: "Kiera Lauren Antao",
       bio: [
         "Keira is an avid debater who takes interest in debating for social issues.  She believes that debate is the best way to put ones thoughts on ice.",
