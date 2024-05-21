@@ -75,7 +75,7 @@ export default function LandingPage() {
             <div className="m-4">
               <div className="flex flex-col items-center justify-center text-center">
                 <Image
-                  src="https://cdn.aayus.me/logo.png"
+                  src="https://cdn.aayus.me/uploads/Asna-Nafees.png"
                   width={200}
                   height={200}
                   alt={"Ms. Asna Nafees"}

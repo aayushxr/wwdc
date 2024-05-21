@@ -1,11 +1,11 @@
 const leaders = [
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/45653f_85ef9403b5b247a78e5b4cc4d0ea00b1mv2.png",
     name: "Ms. Soma Bhattacharjee",
     position: "Vice Principal, Senior Secondary School",
   },
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/45653f_15b67502b0424b60bf3a8cde3042537fmv2.png",
     name: "Ms. Mary Cruz",
     position: "Vice Principal, Secondary School",
   },
@@ -13,9 +13,12 @@ const leaders = [
 
 const coreteach = [
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/image.png",
     name: "Ms. Jasmeet Kaur",
-    bio: [],
+    bio: [
+      "A debate enthusiast, with a flair for persuasive rhetoric and a background in competitive debating, Jasmeet Kaur believes in creating an inclusive and supportive environment where students can explore diverse perspectives and engage in respectful dialogue. ",
+      "In this 'generation of hustlers', she believes it is important to nurture the next generation of confident debaters.",
+    ],
   },
   {
     image: "https://cdn.aayus.me/uploads/Image_5.png",
@@ -39,9 +42,14 @@ const core = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image:
+      "https://cdn.aayus.me/uploads/Mehull_Girdhar_-_Passport_Size_Photograph_2023.JPG",
     name: "Mehull Girdhar",
-    bio: [],
+    bio: [
+      "A student of class XII, Mehull Girdhar is an experienced debater who has been part of the debate club since more than 4 years now.",
+      "As a debate enthusiast, Mehull believes that debating is not only a competitive sport but also a platform for intellectual growth and social change",
+      "He has participated in a number of national and international competitions, winning several accolades such as Top 10 Speaker, Best Open Team, Nationals Championship, Best School Team in Qatar Debate and international competitions like Vocalize UAE SDC, Protea WSDC, among a few.",
+    ],
   },
   {
     image: "https://cdn.aayus.me/uploads/IMG_3212.jpg",
@@ -53,9 +61,13 @@ const core = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image:
+      "https://cdn.aayus.me/uploads/03a38bde-e068-43b8-94da-4699d744b351.png",
     name: "Surya Kauthik Basangi",
-    bio: [],
+    bio: [
+      "Surya Kauthik is a student of Grade 11 and has been a part of the DPS Debate Club since the past 4 years",
+      "He is an ardent debater with multiple national and international accolades, most notably being a Grand-Finalist at the QSDL National Championship. He believes that debating extends beyond arguing within the four walls of a room, influencing individuals and encouraging them to embrace diverse perspectives.",
+    ],
   },
 ];
 
@@ -98,7 +110,10 @@ const org = [
   {
     image: "https://cdn.aayus.me/logo.png",
     name: "Archit Chhikara",
-    bio: [],
+    bio: [
+      "Archit Chhikara, a Grade XI student, brings over three years of experience to the debate club, where his prowess has earned him accolades such as the Best Speaker award from Qatar Debate, alongside numerous national and international honors.",
+      "He is a passionate debater who believes debating is an essential skill, citing its ability to enhance public speaking, foster exposure, and facilitate holistic development in individuals.",
+    ],
   },
   {
     image: "https://cdn.aayus.me/logo.png",
@@ -123,7 +138,7 @@ const org = [
 const twentytwo = {
   org: [
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/sanhdya%20maam_jfif.webp",
       name: "Ms. Sandhya Gopalakrishnan",
       bio: [
         "A passionate teacher who believes in learning from every experience, and every moment in life",
@@ -132,7 +147,7 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://static.wixstatic.com/media/45653f_f09f45420cfc4f299064ac993b41a6cb~mv2.jpg/v1/crop/x_9,y_0,w_1047,h_1155/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
       name: "Gauri Gupta",
       bio: [
         "Currently, the Director Debate of the school debate club , with 7 years of extensive debating experience.",
@@ -141,24 +156,15 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://static.wixstatic.com/media/45653f_44c00e3be0d14c268567a3a335bf51ab~mv2.jpeg/v1/crop/x_0,y_8,w_447,h_493/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_09%20AM%20(1).jpeg",
       name: "Jereni Cathreen Jeyakaran",
-      bio: [
-        "A passionate teacher who believes in learning from every experience, and every moment in life",
-        "Debating is one such skill she has been acquiring and perfecting along with her students.",
-        "The belief that she has miles to go, humbles her and prods her to do more, learn more and achieve more with this 21st century teaching and learning skills.",
-      ],
-    },
-    {
-      image: "https://cdn.aayus.me/logo.jpg",
-      name: "Ms. Sandhya Gopalakrishnan",
       bio: [
         "Jereni is an earnest high school student who actively takes part in contestable debating along with other scholastic and co-scholastic activities.",
         "She's also an exemplary public speaker, hosting school events and giving speeches for school activities like MUN. She also helps train junior debaters to learn and improve their speech making skills.",
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://static.wixstatic.com/media/45653f_50b6d114ccad481ca14ae564b181640e~mv2.jpg/v1/crop/x_0,y_1,w_435,h_480/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
       name: "Kiera Lauren Antao",
       bio: [
         "Keira is an avid debater who takes interest in debating for social issues.  She believes that debate is the best way to put ones thoughts on ice.",
@@ -168,7 +174,8 @@ const twentytwo = {
   ],
   core: [
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image:
+        "https://cdn.aayus.me/uploads/WhatsApp20Image202022-09-0420at209_20_edited.png",
       name: "Ms. Jaya Majumder",
       bio: [
         "A passionate debater and an English teacher by profession, Jaya Majumder is the debate coordinator and coach of the DPSMIS Debate Club.",
@@ -176,7 +183,7 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/IMG_20220902_144812.png",
       name: "Antara Alurkar",
       bio: [
         "Antara is currently studying in 11th grade and is the Director of the Debate club. She loves creating graphical art and exploring the limits of imagination",
@@ -184,7 +191,7 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/aryan202.png",
       name: "Aryan Dubey",
       bio: [
         "Aryan is an ardent debater who has been debating for 5 years now.",
@@ -193,7 +200,7 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/drishti.png",
       name: "Drishti Tibrewal",
       bio: [
         "Drishti, a student of class 11, is a passionate debater, having been a part of the debating community for almost 5 years.",
@@ -201,7 +208,8 @@ const twentytwo = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image:
+        "https://cdn.aayus.me/uploads/Krish20Cbse20Photograph201_edited.png",
       name: "Krish Nagrani",
       bio: [
         "Krish Nagrani is a rising high school junior with an avid interest in Economics and International Relations looking to pursue a degree in Law.",
@@ -237,9 +245,14 @@ const twentythree = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.png",
+      image:
+        "https://cdn.aayus.me/uploads/Mehull_Girdhar_-_Passport_Size_Photograph_2023.JPG",
       name: "Mehull Girdhar",
-      bio: [],
+      bio: [
+        "A student of class XII, Mehull Girdhar is an experienced debater who has been part of the debate club since more than 4 years now.",
+        "As a debate enthusiast, Mehull believes that debating is not only a competitive sport but also a platform for intellectual growth and social change",
+        "He has participated in a number of national and international competitions, winning several accolades such as Top 10 Speaker, Best Open Team, Nationals Championship, Best School Team in Qatar Debate and international competitions like Vocalize UAE SDC, Protea WSDC, among a few.",
+      ],
     },
     {
       image: "https://cdn.aayus.me/uploads/Vyusti_Singh.jpg",
@@ -263,7 +276,8 @@ const twentythree = {
   ],
   core: [
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image:
+        "https://cdn.aayus.me/uploads/WhatsApp20Image202022-09-0420at209_20_edited.png",
       name: "Ms. Jaya Majumder",
       bio: [
         "A passionate debater and an English teacher by profession, Jaya Majumder is the debate coordinator and coach of the DPSMIS Debate Club.",
@@ -271,7 +285,7 @@ const twentythree = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/drishti.png",
       name: "Drishti Tibrewal",
       bio: [
         "Drishti, a student of class 11, is a passionate debater, having been a part of the debating community for almost 5 years.",
@@ -279,11 +293,12 @@ const twentythree = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image:
+        "https://cdn.aayus.me/uploads/Krish20Cbse20Photograph201_edited.png",
       name: "Krish Nagrani",
       bio: [
         "Krish Nagrani is a rising high school junior with an avid interest in Economics and International Relations looking to pursue a degree in Law.",
-        "For Krish, debating is more than just arguing, it’s about building connections and making life-long memories. Through immense hard work and dedication over almost 3 years, Krish has been an awardee of multiple titles and accomplishments.",
+        "For Krish, debating is more than just arguing, it's about building connections and making life-long memories. Through immense hard work and dedication over almost 3 years, Krish has been an awardee of multiple titles and accomplishments.",
       ],
     },
     {

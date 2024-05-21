@@ -10,41 +10,42 @@ export default function Breif() {
               Motions
             </h2>
             <p className="mx-auto max-w-[700px] text-zinc-500 md:text-xl dark:text-zinc-400">
-              The Motions for the War of Words Debating Championship 2022.
+              The Motions for the War of Words Debating Championship 2023.
             </p>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
             <div className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
-              <h3 className="text-lg font-medium">Round 1 & 3 (Prepared)</h3>
+              <h3 className="text-lg font-medium">Round 1 & Quarter Finals (Prepared)</h3>
               <p className="mt-2 text-zinc-500 dark:text-zinc-400">
-                This House Supports NATO (North Atlantic Treaty Organization)
-                offering membership to states of the former Soviet Union,
-                excluding Russia. (NATO)
+                Theme: International Relations Infoslide: In July of 2021, the
+                Biden Administration imposed new sanctions on Cuba following the
+                Cuban government’s crackdown on demonstrators in the streets of
+                Cuba protesting the shortages in medicine and food resulting
+                from the COVID-19 pandemic. Biden’s policy was being framed by
+                Senator Robert Mendez, Chairman of the US Senate Foreign
+                Relations Committee, and the son of Cuban immigrants. Mendez
+                has, in the past, been critical of the Obama Administrations
+                softer line on Cuba.
+                Motion: This House Believes That the United States Should Maintain Its Embargo against Cuba.
               </p>
             </div>
             <div className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
-              <h3 className="text-lg font-medium">Round 2: (Impromptu)</h3>
+              <h3 className="text-lg font-medium">Round 2: (Prepared)</h3>
               <p className="mt-2 text-zinc-500 dark:text-zinc-400">
-                Infoslide: Legacy preference or legacy admission is a preference
-                given by an institution or organization to certain applicants on
-                the basis of their familial relationship to alumni of that
-                institution. For example, students getting admitted into ivy
-                league colleges since their parents are alumni. Motion: This
-                House Regrets Legacy Admission.
+              Theme:  Criminal Justice
+Context: “The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages.
+              </p>
+            </div>
+            <div className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
+              <h3 className="text-lg font-medium">Round 3: (Impromptu)</h3>
+              <p className="mt-2 text-zinc-500 dark:text-zinc-400">
+              This house supports only neurodivergent individuals to play the role of neurodivergent characters in TV shows and movies.
               </p>
             </div>
             <div className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
               <h3 className="text-lg font-medium">Round 4: (Impromptu)</h3>
               <p className="mt-2 text-zinc-500 dark:text-zinc-400">
-                This House Believes That a minimum educational qualification is
-                necessary for electoral representatives in a democracy.
-              </p>
-            </div>
-            <div className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
-              <h3 className="text-lg font-medium">Round 5: (Prepared)</h3>
-              <p className="mt-2 text-zinc-500 dark:text-zinc-400">
-                This House Prefers a world where jobs performed by humans were
-                not automated (E.g., self-driving cars, self-checkouts)
+              This House Opposes (THO) the narrative that a university education leads to higher economic standards.
               </p>
             </div>
             <div className="rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
