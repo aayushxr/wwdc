@@ -64,7 +64,7 @@ export default function About() {
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
                   With enthusiastic coordinators, ardent directors and an
                   enthralling OrgComm we are presenting you our very own
-                  tournament, War of Words Debating Championship 2023.
+                  tournament, War of Words Debating Championship 2024.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
                   The War of Words Debating Championship 2023 is exclusively for
