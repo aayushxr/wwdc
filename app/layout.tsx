@@ -16,6 +16,26 @@ export const metadata: Metadata = {
   title: "War of Words Debating Championship",
   description:
     "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
+  openGraph: {
+    title: "War of Words Debating Championship",
+    description:
+      "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
+    images: [
+      {
+        url: "https://wwdc.aayus.me/opengraph-image.png",
+      },
+    ],
+  },
+  twitter: {
+    title: "War of Words Debating Championship",
+    description:
+      "An interschool debate tournament organised by DPS MIS for all high school students in Qatar ",
+    images: [
+      {
+        url: "https://wwdc.aayus.me/opengraph-image.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
