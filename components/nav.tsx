@@ -52,7 +52,7 @@ const LandingNavbar = () => {
               >
                 <Tabs defaultValue="2022" className="w-full">
                   <TabsList className="w-full">
-                    <TabsTrigger disabled className="w-1/2" value="2023">
+                    <TabsTrigger  className="w-1/2" value="2023">
                       2023
                     </TabsTrigger>
                     <TabsTrigger className="w-1/2" value="2022">

@@ -67,7 +67,7 @@ export default function About() {
                   tournament, War of Words Debating Championship 2024.
                   <p />{" "}
                   <p className="py-4 text-lg text-left leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300"></p>
-                  The War of Words Debating Championship 2023 is exclusively for
+                  The War of Words Debating Championship 2024 is exclusively for
                   high school students. We have an enthusiastic core lined up to
                   ensure quality competition. We aim to provide high quality
                   adjudication and a competitive tournament to all participants.

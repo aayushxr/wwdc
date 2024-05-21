@@ -79,7 +79,7 @@ export default function Breif() {
             <CardContent className="space-y-4">
               <div className="flex items-center justify-between">
                 <p className="font-medium">Dates:</p>
-                <p>November 4-6, 2023</p>
+                <p>November 4-6, 2022</p>
               </div>
               <div className="flex items-center justify-between">
                 <p className="font-medium">Mode:</p>

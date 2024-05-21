@@ -30,7 +30,7 @@ export default function Breif() {
     },
   ];
   return (
-    <Page title="War of Words 2023" desc="breif">
+    <Page title="War of Words 2024" desc="breif">
       <div className="flex flex-col">
         <div className="flex items-center justify-between">
           <Card>
@@ -43,7 +43,7 @@ export default function Breif() {
                   <div className="flex items-center gap-4">
                     <span className="text-2xl font-bold">1.</span>
                     <div>
-                      <p className="font-medium">Team Singapore </p>
+                      <p className="font-medium">Team Qatar Oryx </p>
                       <p className="text-gray-500 dark:text-gray-400">
                         Champion
                       </p>
@@ -54,9 +54,7 @@ export default function Breif() {
                   <div className="flex items-center gap-4">
                     <span className="text-2xl font-bold">2.</span>
                     <div>
-                      <p className="font-medium">
-                        Team DPS Modern Indian School
-                      </p>
+                      <p className="font-medium">Philippines School Doha</p>
                       <p className="text-gray-500 dark:text-gray-400">
                         Runner-up
                       </p>
@@ -70,21 +68,17 @@ export default function Breif() {
             <CardHeader>
               <CardTitle>Tournament Details</CardTitle>
               <CardDescription>
-                War of Words Debate Championship 2022
+                War of Words Debate Championship 2023
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center justify-between">
-                <p className="font-medium">Tournament Name:</p>
-                <p>War of Words Debate Championship 2022</p>
-              </div>
-              <div className="flex items-center justify-between">
                 <p className="font-medium">Dates:</p>
-                <p>November 4-6, 2023</p>
+                <p>June 9-11, 2023</p>
               </div>
               <div className="flex items-center justify-between">
                 <p className="font-medium">Mode of tournament:</p>
-                <p>Online (Zoom + Discord)</p>
+                <p>In-person at DPS Modern Indian School, Doha, Qatar</p>
               </div>
               <div className="flex items-center justify-between">
                 <p className="font-medium">Format:</p>
@@ -92,7 +86,7 @@ export default function Breif() {
               </div>
               <div className="flex items-center justify-between">
                 <p className="font-medium">Results:</p>
-                <Link href={"https://warofwords2022.calicotab.com/wwdc22/"}>
+                <Link href={"https://warofwords2022.calicotab.com/wwdc23/"}>
                   Visit
                 </Link>
               </div>
