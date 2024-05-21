@@ -118,7 +118,7 @@ const org = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/drunkwik.png",
     name: "Daiwik Dhar",
     bio: [
       "Daiwik Dhar is an avid debater who has been a part of the debate club for 4 years.",

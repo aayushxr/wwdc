@@ -2,7 +2,7 @@
 
 const nextConfig = {
   images: {
-    domains: ["cdn.aayus.me", "assets.aceternity.com"],
+    domains: ["cdn.aayus.me", "assets.aceternity.com", "static.wixstatic.com"],
   },
 };
 

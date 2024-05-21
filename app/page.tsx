@@ -1,6 +1,6 @@
 import Committee from "@/components/committee";
 import { buttonVariants } from "@/components/ui/button";
-import { leaders} from "@/data";
+import { leaders } from "@/data";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -39,7 +39,9 @@ export default function LandingPage() {
                     variant: "geist",
                     className: "mt-5",
                   })}
-                  href={"https://docs.google.com/forms/d/e/1FAIpQLSfebYLzpSeltnJlFZUhfZBn0EbuqPRlxWYIs7yz2K8JrT-00A/viewform?usp=sf_link"}
+                  href={
+                    "https://docs.google.com/forms/d/e/1FAIpQLSfebYLzpSeltnJlFZUhfZBn0EbuqPRlxWYIs7yz2K8JrT-00A/viewform?usp=sf_link"
+                  }
                   target="_blank"
                 >
                   Team Registrations <ArrowRight className="ml-2 h-5 w-5" />
@@ -75,7 +77,7 @@ export default function LandingPage() {
             <div className="m-4">
               <div className="flex flex-col items-center justify-center text-center">
                 <Image
-                  src="https://cdn.aayus.me/uploads/Asna-Nafees.png"
+                  src="https://cdn.aayus.me/uploads/Asna20Nafees2019.png"
                   width={200}
                   height={200}
                   alt={"Ms. Asna Nafees"}
@@ -117,7 +119,7 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <Committee/>
+      <Committee />
     </>
   );
 }
