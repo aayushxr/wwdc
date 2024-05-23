@@ -430,20 +430,20 @@ const references = [
     description:
       "Check out a presentation on 'Case building and Argumentation'",
     className: "md:col-span-2",
-    url: "https://aayus.me",
+    url: "https://drive.google.com/file/d/1p0Hb9ZVmcyIGMi0JDgPLhENNjb_adoDB/view?usp=drive_link",
   },
   {
     title: "Engagement",
     description: "Check out the Debaters Briefing  of our tournament",
     className: "md:col-span-1",
-    url: "https://drive.google.com/file/d/1MBBmOQZr5SDMhRhQm9YVdIetPzmjzjLV/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1WNyRKOOYBylhHUXE8akVaNn5Q7vTEWyw/view?usp=drive_link",
   },
 
   {
     title: "Marking Guidelines",
     description: "Check out the Equity Brief of our tournament",
     className: "md:col-span-3",
-    url: "https://drive.google.com/file/d/1xsYT114m_rEB-0NQZbCidKthhaSe-UT3/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1l1Iva7NgNW6ZljSzY-f7bUqN-g5adixV/view?usp=drive_link",
   },
 ];
 
@@ -504,13 +504,13 @@ const briefings = [
   {
     title: "Judges Briefing",
     description: "Check out the Judges Briefing of our tournament",
-    url: "https://drive.google.com/file/d/1snfOE-aqPjoVbEHStIXA1uLOZqQ72T7u/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1g8dVhAmcAIJH4X6sMBeMYbcPQlSv34tU/view?usp=drive_link",
     className: "md:col-span-2",
   },
   {
     title: "Debaters Briefing",
     description: "Check out the Debaters Briefing  of our tournament",
-    url: "https://drive.google.com/file/d/1SA1H_o2S0h7QM6STd7RHo1dCmjeF-zgL/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1nbZ1PqmrGAC3s7WKYTbnScPWfZfVWv0x/view?usp=drive_link",
     className: "md:col-span-1",
   },
 
@@ -518,13 +518,13 @@ const briefings = [
     title: "Equity Briefing",
     description: "Check out the Equity Brief of our tournament",
     className: "md:col-span-1",
-    url: "https://drive.google.com/file/d/1nnNOTlyQVWDXQrwf-4DNyFKqll3IpZqY/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1YYqF5BxPRwPYmhbb-FT6qj1B--GtVVL2/view?usp=drive_link",
   },
   {
     title: "Marking Guildlines",
     description: "Check out the Marking Guidelines of our tournament",
     className: "md:col-span-2",
-    url: "https://drive.google.com/file/d/1xsYT114m_rEB-0NQZbCidKthhaSe-UT3/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1l1Iva7NgNW6ZljSzY-f7bUqN-g5adixV/view?usp=drive_link",
   },
 ];
 
