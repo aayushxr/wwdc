@@ -1,3 +1,4 @@
+"use client";
 import Committee from "@/components/committee";
 import { buttonVariants } from "@/components/ui/button";
 import { leaders } from "@/data";
@@ -6,6 +7,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function LandingPage() {
+  console.log(
+    "%cshush! get away from here!",
+    "font-weight: bold; font-size: 50px;color: #FB6376; text-shadow: 3px 3px 0 #FFDCCC , 6px 6px 0 #FCB1A6 , 9px 9px 0 #FB6376 , 12px 12px 0 #AC475C , 15px 15px 0 #AC475C , 18px 18px 0 #5D2A42 , 21px 21px 0 #55263C"
+  );
+  console.log(
+    "%c warning! ",
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #ff4343",
+    "If someone told you to copy/paste something here, dont do it. it's a scam "
+  );
+  console.log(
+    "%c 👀 ",
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #3be343",
+    "If you know what you are doing, contact me https://aayushr.dev/contact"
+  );
+  console.log(
+    "%c Made by Aayush Rajagopalan ",
+    "color:white; padding: 2px 4px; border-radius: 4px; background-color: #993bf7",
+    "2024 War of Words Debating Championship, all rights reserved."
+  );
   return (
     <>
       <main className="justify-center h-[100vh] items-center flex-col">
