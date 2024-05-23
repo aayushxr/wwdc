@@ -75,7 +75,8 @@ const core = [
 
 const orgteach = [
   {
-    image: "https://cdn.aayus.me/logo.png",
+    image:
+      "https://cdn.aayus.me/uploads/IMG-20240522-WA0006-Photoroom.png-Photoroom.png",
     name: "Ms. Steffi Francis",
     bio: [
       "Ms. Steffi Francis is dedicated to fostering a positive and engaging learning environment.",
@@ -84,9 +85,14 @@ const orgteach = [
     ],
   },
   {
-    image: "https://cdn.aayus.me/logo.png",
-    name: "Mr. Somusundaram",
-    bio: [],
+    image:
+      "https://cdn.aayus.me/uploads/IMG-20181112-WA0028_1_1-Photoroom.png-Photoroom.png",
+    name: "Mr. Somusundaram Narayanan",
+    bio: [
+      "Mr. Somasundaram Narayanan is an enthusiastic language teacher and the Debate Coordinator at DPS Modern Indian School. Renowned for his innovative teaching methods, he inspires critical thinking and effective communication in his students.",
+      "As an encouraging trainer, he has led the debate team to outstanding success in the competitions. His efficient and engaging approach fosters a love for learning and instills values of respect and empathy",
+      "Mr. Somasundaram Narayanan's contributions have significantly enhanced the school’s academic and extracurricular excellence, making him an indispensable part of the school community.",
+    ],
   },
 ];
 

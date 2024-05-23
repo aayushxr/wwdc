@@ -15,7 +15,7 @@ export default function LandingPage() {
             <div className=" flex flex-col items-center">
               <div
                 aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 -top-[-2rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[17rem]"
+                className="pointer-events-none absolute inset-x-0 -top-[-17rem] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[17rem]"
               >
                 <div
                   style={{
@@ -25,7 +25,7 @@ export default function LandingPage() {
                   className="relative left-[calc(50%-2rem)] aspect-[1155/678] w-[38.125rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-emerald-400 to-emerald-800 opacity-30 sm:left-[calc(50%-2rem)] sm:w-[72.1875rem]"
                 />
               </div>
-              <h1 className="text-6xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+              <h1 className="text-4xl max-w-5xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
                 War of Words Debating Championship
               </h1>
               <p className="py-5 text-lg max-w-3xl text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
@@ -72,7 +72,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="container gap-8 flex flex-col flex-wrap justify-center">
+        <div className="container  gap-8 flex flex-col flex-wrap justify-center">
           <div className="relative z-50">
             <div className="m-4">
               <div className="flex flex-col items-center justify-center text-center">

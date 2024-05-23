@@ -67,9 +67,9 @@ export default function Committee() {
                                 width={200}
                                 height={200}
                                 alt={member.name}
-                                className="rounded-full aspect-square h-40 w-40 md:h-52 md:w-52 object-cover"
+                                className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
                               />
-                              <div className="text-lg mt-3 font-semibold">
+                              <div className="text-md md:text-lg mt-3 font-semibold">
                                 {member.name}
                               </div>
                             </div>
@@ -117,9 +117,9 @@ export default function Committee() {
                           width={200}
                           height={200}
                           alt={member.name}
-                          className="rounded-full aspect-square h-48 w-48 md:h-52 md:w-52 object-cover"
+                          className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
@@ -169,7 +169,7 @@ export default function Committee() {
                           alt={member.name}
                           className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
@@ -213,7 +213,7 @@ export default function Committee() {
                           alt={member.name}
                           className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
@@ -274,9 +274,9 @@ export default function Committee() {
                           width={200}
                           height={200}
                           alt={member.name}
-                          className="rounded-full aspect-square h-40 w-40 md:h-52 md:w-52 object-cover"
+                          className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
@@ -318,9 +318,9 @@ export default function Committee() {
                           width={200}
                           height={200}
                           alt={member.name}
-                          className="rounded-full aspect-square h-48 w-48 md:h-52 md:w-52 object-cover"
+                          className="rounded-full aspect-square h-32 w-32 md:h-52 md:w-52 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
@@ -370,7 +370,7 @@ export default function Committee() {
                           alt={member.name}
                           className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
@@ -411,7 +411,7 @@ export default function Committee() {
                           alt={member.name}
                           className="rounded-full aspect-square h-32 w-32 md:h-48 md:w-48 object-cover"
                         />
-                        <div className="text-lg mt-3 font-semibold">
+                        <div className="text-md md:text-lg mt-3 font-semibold">
                           {member.name}
                         </div>
                       </div>
