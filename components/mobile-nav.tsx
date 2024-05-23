@@ -35,7 +35,7 @@ const MobileNav = () => {
               <span className="flex items-center space-x-2 text-2xl text-emerald-700 dark:text-zinc-100">
                 <span>
                   <Image
-                    src="https://cdn.aayus.me/uploads/logo.png"
+                    src="https://cdn.aayus.me/uploads/dpsmisdebatclub.png"
                     alt="N"
                     width="24"
                     height="24"
@@ -50,7 +50,7 @@ const MobileNav = () => {
                 <>
                   <div className="space-x-1 flex items-center justify-center">
                     <Link
-                      href="https://aayus.me/sfi_insta"
+                      href="https://aayus.me/wwdc_insta"
                       className={buttonVariants({
                         variant: "ghost",
                         size: "sm",
@@ -60,7 +60,7 @@ const MobileNav = () => {
                     </Link>
 
                     <Link
-                      href="https://aayus.me/sfi_yt"
+                      href="https://aayus.me/wwdc_fb"
                       className={buttonVariants({
                         variant: "ghost",
                         size: "sm",
@@ -81,6 +81,16 @@ const MobileNav = () => {
               >
                 <div className="flex justify-between items-center flex-1">
                   <span className="flex">About Us</span>
+                </div>
+              </Link>
+              <Link
+                href={"/about/org"}
+                className={
+                  "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
+                }
+              >
+                <div className="flex justify-between items-center flex-1">
+                  <span className="flex">Organising Committee</span>
                 </div>
               </Link>
               <Link
@@ -114,7 +124,7 @@ const MobileNav = () => {
                 </div>
               </Link>
               <Link
-                href={"/about"}
+                href={"/2023/tournament"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
@@ -124,7 +134,7 @@ const MobileNav = () => {
                 </div>
               </Link>
               <Link
-                href={"/about"}
+                href={"/2022/tournament"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }

@@ -26,11 +26,12 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex-1 flex-col">
+      <div className="h-full flex">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
 
       <div className="flex items-start justify-center z-20 ">
-        <div className=" pt-20 ">
+        <div className=" ">
           {/* <h1 className="text-4xl max-w-6xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
             Organising Committee
           </h1>
@@ -463,6 +464,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
