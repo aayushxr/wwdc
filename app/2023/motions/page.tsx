@@ -2,7 +2,7 @@ import Page from "@/components/header";
 
 export default function Breif() {
   return (
-    <Page title="War of Words Debating Championship 2022" desc="">
+    <Page title="War of Words Debating Championship 2023" desc="">
       <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-transparent ">
         <div className="container px-4 md:px-6">
           <div className="space-y-4 text-center">
