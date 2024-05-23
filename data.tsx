@@ -232,7 +232,8 @@ const twentytwo = {
 const twentythree = {
   org: [
     {
-      image: "https://cdn.aayus.me/uploads/WhatsApp20Image202023-05-2520at2016_28_48.png",
+      image:
+        "https://cdn.aayus.me/uploads/WhatsApp20Image202023-05-2520at2016_28_48.png",
       name: "Mr. Dipin Joseph",
       bio: [
         "Mr. Dipin is one of the passionate teachers and debate coordinators of DPS-Modern Indian School.",
@@ -248,7 +249,8 @@ const twentythree = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/uploads/Screenshot_185_edited-Photoroom.png-Photoroom.png",
+      image:
+        "https://cdn.aayus.me/uploads/Screenshot_185_edited-Photoroom.png-Photoroom.png",
       name: "Meenakshi Mukharjee",
       bio: [
         "Meenakshi is currently studying in 12th grade and is one of the Directors of Debate at DPS Modern Indian School.",
@@ -333,4 +335,102 @@ const twentythree = {
   ],
 };
 
-export { leaders, core, org, coreteach, orgteach, twentythree, twentytwo };
+const schedule = {
+  day1: [
+    {
+      time: "1:30 PM - 2:00 PM",
+      title: "Registration",
+    },
+    {
+      time: "2:00 PM - 3:00 PM",
+      title: "Opening Ceremony",
+    },
+    {
+      time: "3:00 PM - 5:00 PM",
+      title: "Round 1",
+    },
+    {
+      time: "5:00 PM - 5:15 PM",
+      title: "Refreshment Break",
+    },
+    {
+      time: "5:15 PM - 6:45 PM",
+      title: "Round 2",
+    },
+    {
+      time: "6:45 PM",
+      title: "Day ends",
+    },
+  ],
+  day2: [
+    {
+      time: "8:00 AM - 8:30 AM",
+      title: "Check-In",
+    },
+    {
+      time: "8:30 AM - 10:30 AM",
+      title: "Round 3",
+    },
+    {
+      time: "10:30 AM - 11:00 AM",
+      title: "Breakfast",
+    },
+    {
+      time: "11:00 AM - 1:00 PM",
+      title: "Round 4",
+    },
+    {
+      time: "1:00 PM - 2:30 PM",
+      title: "Lunch",
+    },
+    {
+      time: "2:30 PM",
+      title: "Break Announcement",
+    },
+    {
+      time: "2:45 PM - 4:15 PM",
+      title: "Quarter Finals",
+    },
+    {
+      time: "4:15 PM",
+      title: "Day ends",
+    },
+  ],
+  day3: [
+    {
+      time: "7:30 AM - 8:00 AM",
+      title: "Check-In",
+    },
+    {
+      time: "8:00 AM - 10:00 AM",
+      title: "Semi Finals",
+    },
+    {
+      time: "10:00 AM - 10:30 AM",
+      title: "Break",
+    },
+    {
+      time: "10:30 AM - 12:00 PM",
+      title: "Grand Final",
+    },
+    {
+      time: "12:30 PM - 1:30 PM",
+      title: "Closing Ceremony",
+    },
+    {
+      time: "1:30 PM",
+      title: "Day ends",
+    },
+  ],
+};
+
+export {
+  leaders,
+  core,
+  org,
+  coreteach,
+  orgteach,
+  twentythree,
+  twentytwo,
+  schedule,
+};

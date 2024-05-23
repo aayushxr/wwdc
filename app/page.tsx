@@ -5,8 +5,26 @@ import { leaders } from "@/data";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import { toast } from "sonner";
 
 export default function LandingPage() {
+  useEffect(() => {
+    toast(
+      "Click on the images of the Organising Committee Members to know more about them.",
+      {
+        action: (
+          <Link
+            className={buttonVariants({ size: "sm", variant: "geist" })}
+            href={"#team"}
+          >
+            Check it out
+          </Link>
+        ),
+        duration: 15000,
+      }
+    );
+  }, []);
   console.log(
     "%cshush! get away from here!",
     "font-weight: bold; font-size: 50px;color: #FB6376; text-shadow: 3px 3px 0 #FFDCCC , 6px 6px 0 #FCB1A6 , 9px 9px 0 #FB6376 , 12px 12px 0 #AC475C , 15px 15px 0 #AC475C , 18px 18px 0 #5D2A42 , 21px 21px 0 #55263C"

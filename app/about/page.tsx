@@ -6,22 +6,7 @@ import { useEffect } from "react";
 import { toast } from "sonner";
 
 export default function About() {
-  useEffect(() => {
-    toast(
-      "Click on the images of the Organising Committee Members to know more about them.",
-      {
-        action: (
-          <Link
-            className={buttonVariants({ size: "sm", variant: "geist" })}
-            href={"#team"}
-          >
-            Check it out
-          </Link>
-        ),
-        duration: 15000,
-      }
-    );
-  }, []);
+
     return (
     <main className="flex-1 flex-col">
       <div className="container h-full flex">
