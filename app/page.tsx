@@ -72,7 +72,7 @@ export default function LandingPage() {
                     variant: "outline",
                     className: "mt-5 ",
                   })}
-                  href="/schedule"
+                  href="https://aayus.me/wwdc_schedule"
                   target="_blank"
                 >
                   Schedule <ArrowRight className="ml-2 h-5 w-5" />
