@@ -8,7 +8,7 @@ export default function Reference() {
       description:
         "Check out a presentation on 'Case building and Argumentation'",
       className: "md:col-span-2",
-      url: "https://drive.google.com/file/d/1bJt5spRmSmZWSVkq8a0nXq3o_Ww5jePb/view?usp=sharing",
+      url: "https://aayus.me",
     },
     {
       title: "Engagement",
