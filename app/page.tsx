@@ -78,7 +78,7 @@ export default function LandingPage() {
                     className: "mt-5",
                   })}
                   href={
-                    "https://docs.google.com/forms/d/e/1FAIpQLSfebYLzpSeltnJlFZUhfZBn0EbuqPRlxWYIs7yz2K8JrT-00A/viewform?usp=sf_link"
+                    "/schedule"
                   }
                   target="_blank"
                 >
