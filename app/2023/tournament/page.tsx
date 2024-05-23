@@ -14,23 +14,19 @@ export default function Breif() {
   const testimonials = [
     {
       name: "1",
-      title: "https://cdn.aayus.me/wallpaper.png",
+      title: "https://cdn.aayus.me/uploads/dddd.png",
     },
     {
       name: "2",
-      title: "https://cdn.aayus.me/wallpaper.png",
+      title: "https://cdn.aayus.me/uploads/ddbebate.png",
     },
     {
-      name: "13",
-      title: "https://cdn.aayus.me/wallpaper.png",
-    },
-    {
-      name: "12",
-      title: "https://cdn.aayus.me/wallpaper.png",
+      name: "3",
+      title: "https://cdn.aayus.me/uploads/dddddd.png",
     },
   ];
   return (
-    <Page title="War of Words Debating Championship 2022" desc="">
+    <Page title="War of Words Debating Championship 2023" desc="">
       <div className="flex flex-col">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="flex items-center justify-center">
@@ -108,11 +104,11 @@ export default function Breif() {
         </div>
 
         <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-          {/* <InfiniteMovingCards
+          <InfiniteMovingCards
             items={testimonials}
             direction="right"
             speed="slow"
-          /> */}
+          />
         </div>
       </div>
     </Page>

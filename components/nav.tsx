@@ -59,7 +59,7 @@ const LandingNavbar = () => {
                 active={active}
                 item="Past Editions"
               >
-                <Tabs defaultValue="2022" className="w-full">
+                <Tabs defaultValue="2023" className="w-full">
                   <TabsList className="w-full">
                     <TabsTrigger  className="w-1/2" value="2023">
                       2023
