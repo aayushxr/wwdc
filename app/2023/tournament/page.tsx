@@ -83,7 +83,7 @@ export default function Breif() {
                 </div>
                 <div className="flex items-center justify-between">
                   <p className="font-medium">Location:</p>
-                  <p>DPS Modern Indian School</p>
+                  <p className="text-sm md:text-md">DPS Modern Indian School</p>
                 </div>
                 <div className="flex items-center justify-between">
                   <p className="font-medium">Format:</p>
@@ -103,7 +103,7 @@ export default function Breif() {
           </div>
         </div>
 
-        <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-black dark:bg-dot-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div className="h-[20rem] hidden rounded-md md:flex flex-col antialiased bg-transparent dark:bg-black dark:bg-dot-white/[0.05] items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"

@@ -46,7 +46,7 @@ const LandingNavbar = () => {
             <Menu setActive={setActive}>
             <MenuItem setActive={setActive} active={active} item="Information">
                 <div className="flex flex-col space-y-4 text-sm">
-                  <HoveredLink href="/references/briefings">
+                  <HoveredLink href="/about">
                     About us
                   </HoveredLink>
                   <HoveredLink href="/about/org">

@@ -232,15 +232,15 @@ const twentytwo = {
 const twentythree = {
   org: [
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/WhatsApp20Image202023-05-2520at2016_28_48.png",
       name: "Mr. Dipin Joseph",
       bio: [
-        "Mr.Dipin is one of the passionate teachers and debate coordinators of DPS-Modern Indian School.",
+        "Mr. Dipin is one of the passionate teachers and debate coordinators of DPS-Modern Indian School.",
         "He is a very creative and innovative trainer who always comes up with new ideas. He believes that debate helps to empower individuals to share ideas with others.",
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/image.png",
       name: "Ms. Jasmeet Kaur Khanna",
       bio: [
         "A debate enthusiast, with a flair for persuasive rhetoric and a background in competitive debating, Jasmeet Kaur believes in creating an inclusive and supportive environment where students can explore diverse perspectives and engage in respectful dialogue",
@@ -248,7 +248,7 @@ const twentythree = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/Screenshot_185_edited-Photoroom.png-Photoroom.png",
       name: "Meenakshi Mukharjee",
       bio: [
         "Meenakshi is currently studying in 12th grade and is one of the Directors of Debate at DPS Modern Indian School.",
@@ -313,7 +313,7 @@ const twentythree = {
       ],
     },
     {
-      image: "https://cdn.aayus.me/logo.jpg",
+      image: "https://cdn.aayus.me/uploads/Abhimanyu20cbse_edited.png",
       name: "Abhimanyu Gupta",
       bio: [
         "Abhimanyu is a highly enthusiastic debater studying in Class XI and has been part of the debate club for almost 3 years. He has participated in many national and international tournaments.",
