@@ -7,7 +7,7 @@ import { VercelToolbar } from "@vercel/toolbar/next";
 import LandingNavbar from "@/components/nav";
 import Link from "next/link";
 import { Toaster } from "@/components/ui/sonner";
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
@@ -75,6 +75,7 @@ export default function RootLayout({
           </footer>
         </ThemeProvider>
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
