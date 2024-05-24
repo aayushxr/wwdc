@@ -1,5 +1,3 @@
-'use client'
-
 import {
   Dialog,
   DialogClose,
@@ -33,9 +31,12 @@ import { toast } from "sonner";
 import { Info } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
+import { FlagValues } from "@vercel/flags/react";
+import {  short } from "@/flags";
 
-export default function Committee() {
-  
+export default async function Committee() {
+  const code = await short();
+
   return (
     <>
       <div id="team" className="relative z-50">
@@ -43,7 +44,7 @@ export default function Committee() {
           <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Our Core Organising Committee
+                {code ? "core" : "Our Core Organising Committee"}
               </h2>
             </div>
           </div>
@@ -253,7 +254,7 @@ export default function Committee() {
           <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Our Organising Committee
+                {code ? "org" : "Our Core Organising Committee"}
               </h2>
             </div>
           </div>
