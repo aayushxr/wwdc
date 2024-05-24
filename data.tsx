@@ -531,16 +531,19 @@ const briefings = [
 const motions = [
   {
     title: "Round 1",
-    desc: "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies"
-  }
+    desc: "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies", 
+    className: "md:col-span-1",
+  },
    {
     title: "Round 4",
-    desc: "This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminaljustice policy, allocation of healthcare resources, housing development)"
-  }
+    desc: "This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminaljustice policy, allocation of healthcare resources, housing development)",
+    className: "md:col-span-2",
+  },
    {
     title: "Grand Final",
-    desc: "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer)."
-  }
+    desc: "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
+    className: "md:col-span-3",
+  },
 ]
 
 export {
