@@ -31,11 +31,10 @@ import { toast } from "sonner";
 import { Info } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
-import { FlagValues } from "@vercel/flags/react";
-import {  short } from "@/flags";
+
 
 export default async function Committee() {
-  const code = await short();
+  const code = false;
 
   return (
     <>
