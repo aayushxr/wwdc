@@ -528,6 +528,13 @@ const briefings = [
   },
 ];
 
+const motions = [
+  {
+    title: "motion 1",
+    desc: "yap yap"
+  }
+]
+
 export {
   leaders,
   core,
@@ -540,4 +547,5 @@ export {
   references,
   samples,
   briefings,
+  motions
 };

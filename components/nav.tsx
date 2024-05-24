@@ -52,6 +52,9 @@ const LandingNavbar = () => {
                   <HoveredLink href="/about/org">
                     Organising Committee
                   </HoveredLink>
+                  <HoveredLink href="/motions">
+                    Motions
+                  </HoveredLink>
                 </div>
               </MenuItem>
               <MenuItem
@@ -145,7 +148,7 @@ const LandingNavbar = () => {
           <div className="hidden justify-end items-center space-x-4 sm:flex">
             <div className="space-x-1  flex items-center justify-center">
               <Link
-                href="https://aayus.me/sfi_insta"
+                href="https://aayus.me/wwdc_insta"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "sm",
@@ -155,7 +158,7 @@ const LandingNavbar = () => {
               </Link>
 
               <Link
-                href="https://aayus.me/sfi_yt"
+                href="https://aayus.me/wwdc_yt"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "sm",
