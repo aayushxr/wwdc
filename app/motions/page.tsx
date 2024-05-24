@@ -4,7 +4,9 @@ import { motions } from "@/data";
 export default function Breif() {
   return (
     <section className="w-full pb-12 md:pb-24 lg:pb-32 bg-transparent ">
-      <div className="container px-4 md:px-6">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
+
+      <div className="container pt-20 px-4 md:px-6">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Motions
