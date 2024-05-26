@@ -158,7 +158,7 @@ const LandingNavbar = () => {
               </Link>
 
               <Link
-                href="https://aayus.me/wwdc_yt"
+                href="https://aayus.me/wwdc_fb"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "sm",

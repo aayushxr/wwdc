@@ -94,7 +94,7 @@ const MobileNav = () => {
                 </div>
               </Link>
               <Link
-                href={"/about"}
+                href={"/references/briefings"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
@@ -104,7 +104,7 @@ const MobileNav = () => {
                 </div>
               </Link>
               <Link
-                href={"/about"}
+                href={"/references/samples"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
@@ -114,7 +114,7 @@ const MobileNav = () => {
                 </div>
               </Link>
               <Link
-                href={"/about"}
+                href={"/references"}
                 className={
                   "text-sm group flex p-3 w-full justify-start font-medium cursor-pointer hover:text-white hover:bg-white/10 text-zinc-900 dark:text-zinc-300 rounded-lg transition"
                 }
