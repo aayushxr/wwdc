@@ -253,7 +253,7 @@ export default async function Committee() {
           <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                {code ? "org" : "Our Core Organising Committee"}
+                {code ? "org" : "Our Organising Committee"}
               </h2>
             </div>
           </div>
