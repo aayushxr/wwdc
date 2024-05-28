@@ -259,7 +259,7 @@ export default async function Committee() {
           </div>
         </div>
         <div className="mx-auto  md:max-w-[95rem] container gap-8 pb-5 flex flex-col flex-wrap justify-center">
-          <div className="grid grid-cols-3 gap-x-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8">
             {orgteach.map((member, index) => (
               <>
                 <div
