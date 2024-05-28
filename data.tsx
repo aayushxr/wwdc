@@ -96,7 +96,7 @@ const orgteach = [
   },
 {
     image:
-      "https://cdn.aayus.me/uploads/sh.jpg",
+      "https://cdn.aayus.me/uploads/sha.jpg",
     name: "Ms. Asha Kurian",
     bio: [
       "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education. .",
