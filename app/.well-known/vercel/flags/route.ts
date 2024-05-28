@@ -7,8 +7,8 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json<ApiData>({
         definitions: {
-            short: {
-                description: 'short form for the names',
+            daiwik: {
+                description: 'changes daiwiks pic cos god damn that shits ass',
                 origin: 'https://wwdcdpsmis.com/#team',
                 options: [
                     { value: false, label: 'Off' },
