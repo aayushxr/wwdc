@@ -60,7 +60,7 @@ const core = [
       "Nikkil Dcruz is a distinguished debater, renowned for his exceptional skills and accomplishments in the global debate circuit.",
       " As a top 10 speaker in the Qatar Debate Circuit, Nikkil has consistently demonstrated his ability to articulate compelling arguments and engage with complex issues. His journey in debate has seen him break and reach the finals in various prestigious international competitions.",
       "Moreover, Nikkil's passion for debate extends beyond personal achievement. He is deeply committed to mentoring and inspiring the next generation of debaters. By sharing his knowledge and experience, he aims to cultivate a community of thoughtful individuals who can contribute meaningfully to discussions and decisions in various spheres of life.",
-    ],
+    ]
   },
   {
     image:
@@ -173,7 +173,7 @@ const twentytwo = {
       bio: [
         "Currently, the Director Debate of the school debate club , with 7 years of extensive debating experience.",
         "Gauri learned debating from the School Debate club, QatarDebate and World School Debating Academy. ",
-        "A representative of DPS-MIS in the annual QD Tournament in consecutive years, she secured top speaker position in multiple times which includes the title of 3rd best Novice speaker at EurOpen. She even judged prep school debates in Qatar Leagues.",
+        "A representative of DPS-Modern Indian School in the annual QD Tournament in consecutive years, she secured top speaker position in multiple times which includes the title of 3rd best Novice speaker at EurOpen. She even judged prep school debates in Qatar Leagues.",
       ],
     },
     {
@@ -201,7 +201,7 @@ const twentytwo = {
         "https://cdn.aayus.me/uploads/WhatsApp20Image202022-09-0420at209_20_edited.png",
       name: "Ms. Jaya Majumder",
       bio: [
-        "A passionate debater and an English teacher by profession, Jaya Majumder is the debate coordinator and coach of the DPSMIS Debate Club.",
+        "A passionate debater and an English teacher by profession, Jaya Majumder is the debate coordinator and coach of the DPS-Modern Indian School Debate Club.",
         "She is a competent trainer and adjudicator who has participated in many international debate tournaments. She believes that every person is a born debater and in this spirit strives to spread the essence of debating.",
       ],
     },
