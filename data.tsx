@@ -8,7 +8,7 @@ const leaders = [
   {
     image:
       "https://cdn.aayus.me/uploads/45653f_15b67502b0424b60bf3a8cde3042537fmv2.png",
-    name: "Ms. Mary Cruz",
+    name: "Ms. Hyacinth Mary Cruz",
     position: "Vice Principal, Secondary School",
   },
 ];
