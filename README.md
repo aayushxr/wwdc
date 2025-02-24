@@ -1,6 +1,6 @@
 # The Website for the War of Words Debate Championship 2024.
 
-![Site Image](https://cdn.aayus.me/tedx/screenshot.jpeg)
+![Site Image](https://cdn.aayus.me/uploads/Arc_77QlapuRtO.png)
 
 This is the official website for the War of Words Debate Championship 2024; showcasing event details, schedule, organizing comittee and more.
 
