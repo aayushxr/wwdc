@@ -18,7 +18,6 @@ To run the site locally, follow these steps:
 - **app/**: Contains all the pages of the website.
 - **components/**: Reusable React components.
   - **components/ui/**: shadcn/ui components.
-- **hooks/**: Reusable React hooks.
 - **lib/**: Utility functions
 - **public/**: all the assets of the site
 - **data.tsx**: all the data of the site.  
