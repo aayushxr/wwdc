@@ -42,7 +42,7 @@ export const VideoBentoGridItem = ({
         className
       )}
     >
-      <div className=" ">
+      <div>
         <ReactPlayer width={318} height={179}  url={url} />
       </div>
       <div className="group-hover/bento:translate-x-2 transition duration-200">

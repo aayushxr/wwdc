@@ -10,7 +10,7 @@ import {
   Card,
 } from "@/components/ui/card";
 
-export default function Breif() {
+export default function Brief() {
   const testimonials = [
     {
       name: "1",

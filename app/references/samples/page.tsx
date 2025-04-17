@@ -2,15 +2,14 @@ import Page from "@/components/header";
 import { VideoBentoGrid, VideoBentoGridItem } from "@/components/video";
 import { samples } from "@/data";
 
-export default function Breif() {
-  const items = samples
+export default function Brief() {
   return (
     <Page
       title="Sample Debates"
       desc="Here are some sample debates you can watch, to gain a better insight. You can watch these debates on Youtube. "
     >
       <VideoBentoGrid className="max-w-8xl mx-auto md:auto-rows-[17rem]">
-        {items.map((item, i) => (
+        {samples.map((item, i) => (
           <VideoBentoGridItem
             key={i}
             title={item.title}

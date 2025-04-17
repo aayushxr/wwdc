@@ -39,7 +39,7 @@ const core = [
     name: "Prithwiraj Purkait",
     bio: [
       "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
-      " He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
+      "He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
       "For him, Debate requires hard work & motivation but an immense amount of knowledge, critical thinking and connections built last a lifetime.",
     ],
   },
@@ -94,7 +94,7 @@ const orgteach = [
       "Mr. Somasundaram Narayanan's contributions have significantly enhanced the school’s academic and extracurricular excellence, making him an indispensable part of the school community.",
     ],
   },
-{
+  {
     image:
       "https://cdn.aayus.me/uploads/sha.jpg",
     name: "Ms. Asha Kurian",
@@ -102,8 +102,8 @@ const orgteach = [
       "Ms. Asha Kurian is an English teacher and the Head of the Department for Senior Secondary School, dedicated to striving for excellence in education. .",
       "As an alumna of the prestigious Sainik School Assam, a premier institution under the Ministry of Defence, Government of India, she has been profoundly influenced by its strong educational foundation. ",
       "In her role, Ms.Asha has worked closely with fellow teachers, providing support, guidance, and professional development opportunities to enhance their teaching skills and foster a collaborative work environment. ",
-"She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
-"Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
+      "She is also a resource person and in charge of the senior school debate team, where she encourages and develops students' public speaking and critical thinking abilities. ",
+      "Additionally, serving as the English Editor of the school magazine has allowed her to nurture students' creativity and literary appreciation, providing them with a platform to display their talents",
     ],
   },
 ];
@@ -156,45 +156,6 @@ const org = [
 ];
 
 const twentytwo = {
-  org: [
-    {
-      image: "https://cdn.aayus.me/uploads/sanhdya%20maam_jfif.webp",
-      name: "Ms. Sandhya Gopalakrishnan",
-      bio: [
-        "A passionate teacher who believes in learning from every experience, and every moment in life",
-        "Debating is one such skill she has been acquiring and perfecting along with her students.",
-        "The belief that she has miles to go, humbles her and prods her to do more, learn more and achieve more with this 21st century teaching and learning skills.",
-      ],
-    },
-    {
-      image:
-        "https://static.wixstatic.com/media/45653f_f09f45420cfc4f299064ac993b41a6cb~mv2.jpg/v1/crop/x_9,y_0,w_1047,h_1155/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
-      name: "Gauri Gupta",
-      bio: [
-        "Currently, the Director Debate of the school debate club , with 7 years of extensive debating experience.",
-        "Gauri learned debating from the School Debate club, QatarDebate and World School Debating Academy. ",
-        "A representative of DPS-Modern Indian School in the annual QD Tournament in consecutive years, she secured top speaker position in multiple times which includes the title of 3rd best Novice speaker at EurOpen. She even judged prep school debates in Qatar Leagues.",
-      ],
-    },
-    {
-      image:
-        "https://static.wixstatic.com/media/45653f_44c00e3be0d14c268567a3a335bf51ab~mv2.jpeg/v1/crop/x_0,y_8,w_447,h_493/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_09%20AM%20(1).jpeg",
-      name: "Jereni Cathreen Jeyakaran",
-      bio: [
-        "Jereni is an earnest high school student who actively takes part in contestable debating along with other scholastic and co-scholastic activities.",
-        "She's also an exemplary public speaker, hosting school events and giving speeches for school activities like MUN. She also helps train junior debaters to learn and improve their speech making skills.",
-      ],
-    },
-    {
-      image:
-        "https://static.wixstatic.com/media/45653f_50b6d114ccad481ca14ae564b181640e~mv2.jpg/v1/crop/x_0,y_1,w_435,h_480/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
-      name: "Kiera Lauren Antao",
-      bio: [
-        "Keira is an avid debater who takes interest in debating for social issues.  She believes that debate is the best way to put ones thoughts on ice.",
-        "She feels that speaking up is the first step in bringing about change because it starts with oneself.",
-      ],
-    },
-  ],
   core: [
     {
       image:
@@ -240,8 +201,141 @@ const twentytwo = {
       ],
     },
   ],
+  org: [
+    {
+      image: "https://cdn.aayus.me/uploads/sanhdya%20maam_jfif.webp",
+      name: "Ms. Sandhya Gopalakrishnan",
+      bio: [
+        "A passionate teacher who believes in learning from every experience, and every moment in life",
+        "Debating is one such skill she has been acquiring and perfecting along with her students.",
+        "The belief that she has miles to go, humbles her and prods her to do more, learn more and achieve more with this 21st century teaching and learning skills.",
+      ],
+    },
+    {
+      image:
+        "https://static.wixstatic.com/media/45653f_f09f45420cfc4f299064ac993b41a6cb~mv2.jpg/v1/crop/x_9,y_0,w_1047,h_1155/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
+      name: "Gauri Gupta",
+      bio: [
+        "Currently, the Director Debate of the school debate club , with 7 years of extensive debating experience.",
+        "Gauri learned debating from the School Debate club, QatarDebate and World School Debating Academy. ",
+        "A representative of DPS-Modern Indian School in the annual QD Tournament in consecutive years, she secured top speaker position in multiple times which includes the title of 3rd best Novice speaker at EurOpen. She even judged prep school debates in Qatar Leagues.",
+      ],
+    },
+    {
+      image:
+        "https://static.wixstatic.com/media/45653f_44c00e3be0d14c268567a3a335bf51ab~mv2.jpeg/v1/crop/x_0,y_8,w_447,h_493/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_09%20AM%20(1).jpeg",
+      name: "Jereni Cathreen Jeyakaran",
+      bio: [
+        "Jereni is an earnest high school student who actively takes part in contestable debating along with other scholastic and co-scholastic activities.",
+        "She's also an exemplary public speaker, hosting school events and giving speeches for school activities like MUN. She also helps train junior debaters to learn and improve their speech making skills.",
+      ],
+    },
+    {
+      image:
+        "https://static.wixstatic.com/media/45653f_50b6d114ccad481ca14ae564b181640e~mv2.jpg/v1/crop/x_0,y_1,w_435,h_480/fill/w_310,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-09-10%20at%2011_38_edited.jpg",
+      name: "Kiera Lauren Antao",
+      bio: [
+        "Keira is an avid debater who takes interest in debating for social issues.  She believes that debate is the best way to put ones thoughts on ice.",
+        "She feels that speaking up is the first step in bringing about change because it starts with oneself.",
+      ],
+    },
+  ],
+  motions: [
+    {
+      title: "Round 1 & 3 (Prepared)",
+      body:
+        "This House Supports NATO (North Atlantic Treaty Organization) offering membership to states of the former Soviet Union, excluding Russia. (NATO)",
+    },
+    {
+      title: "Round 2: (Impromptu)",
+      body:
+        "Infoslide: Legacy preference or legacy admission is a preference given by an institution or organization to certain applicants on the basis of their familial relationship to alumni of that institution. For example, students getting admitted into ivy league colleges since their parents are alumni. Motion: This House Regrets Legacy Admission.",
+    },
+    {
+      title: "Round 4: (Impromptu)",
+      body:
+        "This House Believes That a minimum educational qualification is necessary for electoral representatives in a democracy.",
+    },
+    {
+      title: "Round 5: (Prepared)",
+      body:
+        "This House Prefers a world where jobs performed by humans were not automated (E.g., self-driving cars, self-checkouts)",
+    },
+    {
+      title: "Round 6: (Impromptu)",
+      body:
+        "This House Regrets the over dependency of Gen-Z on social media platforms (eg. Tiktok, Instagram, Facebook)",
+    },
+    {
+      title: "Octo-finals: (Impromptu)",
+      body:
+        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing) Motion: This House Regrets the glorification of the Teenage Dream.",
+    },
+    {
+      title: "Quarter-finals: (Impromptu)",
+      body:
+        "Info slide: For the purpose of this debate, radical environmentalism refers to the use of violent practices to further the cause of environmental movements due to ecocentrism-based frustration. (Example: throwing pea soup at Van Gogh’s “The Sower”, spraying orange paints on buildings in central London, etc.) Motion: This House Supports radical environmentalism.",
+    },
+    {
+      title: "Semi-finals: (Impromptu)",
+      body:
+        "This House Would make employee-vaccine mandatory",
+    },
+    {
+      title: "Finals: (Prepared)",
+      body:
+        "This House Prefers a world where Russia continued to participate in the FIFA (International Federation of Association Football) World Cup 2022 qualifiers unobjected, and also in the FIFA World Cup 2022, had they qualified.",
+    },
+  ],
 };
+
 const twentythree = {
+  core: [
+    {
+      image:
+        "https://cdn.aayus.me/uploads/WhatsApp20Image202022-09-0420at209_20_edited.png",
+      name: "Ms. Jaya Majumder",
+      bio: [
+        "A passionate debater and an English teacher by profession, Jaya Majumder is the debate coordinator and coach of the DPSMIS Debate Club.",
+        "She is a competent trainer and adjudicator who has participated in many international debate tournaments. She believes that every person is a born debater and in this spirit strives to spread the essence of debating.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/drishti.png",
+      name: "Drishti Tibrewal",
+      bio: [
+        "Drishti, a student of class 11, is a passionate debater, having been a part of the debating community for almost 5 years.",
+        "She has represented DPSMIS in QatarDebate from 2018- 2020 and in many international tournaments. She loves to explore various current issues and discussions through debate. Drishti’s continued hard work and dedication has helped shape her debating career",
+      ],
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/Krish20Cbse20Photograph201_edited.png",
+      name: "Krish Nagrani",
+      bio: [
+        "Krish Nagrani is a rising high school junior with an avid interest in Economics and International Relations looking to pursue a degree in Law.",
+        "For Krish, debating is more than just arguing, it's about building connections and making life-long memories. Through immense hard work and dedication over almost 3 years, Krish has been an awardee of multiple titles and accomplishments.",
+      ],
+    },
+    {
+      image: "https://cdn.aayus.me/uploads/Abhimanyu20cbse_edited.png",
+      name: "Abhimanyu Gupta",
+      bio: [
+        "Abhimanyu is a highly enthusiastic debater studying in Class XI and has been part of the debate club for almost 3 years. He has participated in many national and international tournaments.",
+        "Abhimanyu has an avid interest in international relations which he developed through debating. With his passion for debating, continuous hard work and determination, he emerged as one of the Director Debates in the school.",
+      ],
+    },
+    {
+      image:
+        "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
+      name: "Prithwiraj Purkait",
+      bio: [
+        "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
+        " He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
+        "For him, Debate requires hard work & motivation but an immense amount of knowledge, critical thinking and connections built last a lifetime.",
+      ],
+    },
+  ],
   org: [
     {
       image:
@@ -299,141 +393,151 @@ const twentythree = {
       ],
     },
   ],
-  core: [
+  motions: [
     {
-      image:
-        "https://cdn.aayus.me/uploads/WhatsApp20Image202022-09-0420at209_20_edited.png",
-      name: "Ms. Jaya Majumder",
-      bio: [
-        "A passionate debater and an English teacher by profession, Jaya Majumder is the debate coordinator and coach of the DPSMIS Debate Club.",
-        "She is a competent trainer and adjudicator who has participated in many international debate tournaments. She believes that every person is a born debater and in this spirit strives to spread the essence of debating.",
-      ],
+      title: "Round 1 & Quarter Finals (Prepared)",
+      body:
+        "Theme: International Relations Infoslide: In July of 2021, the Biden Administration imposed new sanctions on Cuba following the Cuban government’s crackdown on demonstrators in the streets of Cuba protesting the shortages in medicine and food resulting from the COVID-19 pandemic. Biden’s policy was being framed by Senator Robert Mendez, Chairman of the US Senate Foreign Relations Committee, and the son of Cuban immigrants. Mendez has, in the past, been critical of the Obama Administrations softer line on Cuba. Motion: This House Believes That the United States Should Maintain Its Embargo against Cuba.",
     },
     {
-      image: "https://cdn.aayus.me/uploads/drishti.png",
-      name: "Drishti Tibrewal",
-      bio: [
-        "Drishti, a student of class 11, is a passionate debater, having been a part of the debating community for almost 5 years.",
-        "She has represented DPSMIS in QatarDebate from 2018- 2020 and in many international tournaments. She loves to explore various current issues and discussions through debate. Drishti’s continued hard work and dedication has helped shape her debating career",
-      ],
+      title: "Round 2: (Prepared)",
+      body:
+        "Theme: Criminal Justice Context: “The right to survival prevails over property,” the court of appeals ruled when reviewing the case of a homeless man who had been given a six month jail sentence and a €100 euro fine for stealing cheese and sausages.",
     },
     {
-      image:
-        "https://cdn.aayus.me/uploads/Krish20Cbse20Photograph201_edited.png",
-      name: "Krish Nagrani",
-      bio: [
-        "Krish Nagrani is a rising high school junior with an avid interest in Economics and International Relations looking to pursue a degree in Law.",
-        "For Krish, debating is more than just arguing, it's about building connections and making life-long memories. Through immense hard work and dedication over almost 3 years, Krish has been an awardee of multiple titles and accomplishments.",
-      ],
+      title: "Round 3: (Impromptu)",
+      body:
+        "This house supports only neurodivergent individuals to play the role of neurodivergent characters in TV shows and movies.",
     },
     {
-      image: "https://cdn.aayus.me/uploads/Abhimanyu20cbse_edited.png",
-      name: "Abhimanyu Gupta",
-      bio: [
-        "Abhimanyu is a highly enthusiastic debater studying in Class XI and has been part of the debate club for almost 3 years. He has participated in many national and international tournaments.",
-        "Abhimanyu has an avid interest in international relations which he developed through debating. With his passion for debating, continuous hard work and determination, he emerged as one of the Director Debates in the school.",
-      ],
+      title: "Round 4: (Impromptu)",
+      body:
+        "This House Opposes (THO) the narrative that a university education leads to higher economic standards.",
     },
     {
-      image:
-        "https://cdn.aayus.me/uploads/Prithwiraj_Purkait_School_Uniform_with_Blue_Background.jpg",
-      name: "Prithwiraj Purkait",
-      bio: [
-        "Prithwiraj, a student in Grade XII, is an aspiring debater and has been part of his school's debate club for almost 5 years.",
-        " He has been debating competitively in national and international competitions and has represented his school in QatarDebate from 2019-2024.",
-        "For him, Debate requires hard work & motivation but an immense amount of knowledge, critical thinking and connections built last a lifetime.",
-      ],
+      title: "Round-5 (Prepared)",
+      body:
+        "Theme: Social Issues Infoslide: Effective Altruism is the view that we should invest energy into figuring out what the most effective way to help others is, and encourages people to act on that basis. Effective Altruists often encourage donations to highly efficient charities, such as the Malaria Consortium. Long-termism is the view that we should be doing much more to help future generations. Effective Altruists who are long-termists often advocate for greater preparedness against existential risks, such as hostile AI takeover, or pandemics.Motion:This House Believes That the Effective Altruism community should prioritize alleviating short-term suffering over long-termism",
+    },
+    {
+      title: "Octo-finals: (Impromptu)",
+      body:
+        "Infoslide: Teenage Dream refers to the concept of living your life the best way as a teenager. (Example, hanging out with friends, having fun, partying, etc. all while having a strong academic standing) Motion: This House Regrets the glorification of the Teenage Dream.",
+    },
+    {
+      title: "Round 6: (Impromptu)",
+      body:
+        "Infoslide: Progressive rebranding refers to actions undertaken by media companies to rewrite, reword, or remake works of art that are allegedly offensive or out-of-touch with the current social norm, to make them more inclusive and sensitive. Such changes are new to the work of art, and not intended nor included by the original creator of the work. Recent examples include: The rewriting of Augustus Gloop in Roald Dahl’s Charlie and the Chocolate Factory to be “enormous” instead of “fat”, and the remaking of Aladdin by Disney to give more independent screen time to the character of Jasmine, who was previously given almost no independent screen time Motion:This House supports the trend of media and publishing companies (e.g. Disney, Penguin Books, Warner Brothers, Bloomsbury) engaging in progressive rebranding",
+    },
+    {
+      title: "Semi-finals: (Impromptu)",
+      body:
+        "You are a doctor in a neonatal emergency unit of a hospital. One night, two critical cases come to you - a wealthy couples new-born baby and an extremely poor couples new-born baby- are both diagnosed with Disease X. Despite hours of frantic efforts on your part to keep them alive, tragedy strikes by the time it is dawn and the wealthy couples baby dies. Assuming the switch will never be discovered, THW tell the poor couple their baby.",
+    },
+    {
+      title: "Finals: (Prepared)",
+      body:
+        "Theme: Artificial Intelligence TalkToys are dolls with Artificial Intelligence (AI) and speech recognition software that enable them to engage in an actual conversation with children (they have a lexicon of thousands of prescript responses). TalkToys are meant to serve as a companion to the child, and they are in the late stages of development. Prominent examples of toys that will be able to talk include Barbie, G.I Joe and Star Wars and Action Figures. Motion: This House would ban Talk Toys",
     },
   ],
 };
 
 const schedule = {
-  day1: [
-    {
-      time: "1:30 PM - 2:00 PM",
-      title: "Registration",
-    },
-    {
-      time: "2:00 PM - 3:00 PM",
-      title: "Opening Ceremony",
-    },
-    {
-      time: "3:00 PM - 5:00 PM",
-      title: "Round 1",
-    },
-    {
-      time: "5:00 PM - 5:15 PM",
-      title: "Refreshment Break",
-    },
-    {
-      time: "5:15 PM - 6:45 PM",
-      title: "Round 2",
-    },
-    {
-      time: "6:45 PM",
-      title: "Day ends",
-    },
-  ],
-  day2: [
-    {
-      time: "8:00 AM - 8:30 AM",
-      title: "Check-In",
-    },
-    {
-      time: "8:30 AM - 10:30 AM",
-      title: "Round 3",
-    },
-    {
-      time: "10:30 AM - 11:00 AM",
-      title: "Breakfast",
-    },
-    {
-      time: "11:00 AM - 1:00 PM",
-      title: "Round 4",
-    },
-    {
-      time: "1:00 PM - 2:30 PM",
-      title: "Lunch",
-    },
-    {
-      time: "2:30 PM",
-      title: "Break Announcement",
-    },
-    {
-      time: "2:45 PM - 4:15 PM",
-      title: "Quarter Finals",
-    },
-    {
-      time: "4:15 PM",
-      title: "Day ends",
-    },
-  ],
-  day3: [
-    {
-      time: "7:30 AM - 8:00 AM",
-      title: "Check-In",
-    },
-    {
-      time: "8:00 AM - 10:00 AM",
-      title: "Semi Finals",
-    },
-    {
-      time: "10:00 AM - 10:30 AM",
-      title: "Break",
-    },
-    {
-      time: "10:30 AM - 12:00 PM",
-      title: "Grand Final",
-    },
-    {
-      time: "12:30 PM - 1:30 PM",
-      title: "Closing Ceremony",
-    },
-    {
-      time: "1:30 PM",
-      title: "Day ends",
-    },
-  ],
+  day1: {
+    date: "7th June (Friday)",
+    time: [
+      {
+        time: "1:30 PM - 2:00 PM",
+        title: "Registration",
+      },
+      {
+        time: "2:00 PM - 3:00 PM",
+        title: "Opening Ceremony",
+      },
+      {
+        time: "3:00 PM - 5:00 PM",
+        title: "Round 1",
+      },
+      {
+        time: "5:00 PM - 5:15 PM",
+        title: "Refreshment Break",
+      },
+      {
+        time: "5:15 PM - 6:45 PM",
+        title: "Round 2",
+      },
+      {
+        time: "6:45 PM",
+        title: "Day ends",
+      },
+    ]
+  },
+  day2: {
+    date: "8th June (Saturday)",
+    time: [
+      {
+        time: "8:00 AM - 8:30 AM",
+        title: "Check-In",
+      },
+      {
+        time: "8:30 AM - 10:30 AM",
+        title: "Round 3",
+      },
+      {
+        time: "10:30 AM - 11:00 AM",
+        title: "Breakfast",
+      },
+      {
+        time: "11:00 AM - 1:00 PM",
+        title: "Round 4",
+      },
+      {
+        time: "1:00 PM - 2:30 PM",
+        title: "Lunch",
+      },
+      {
+        time: "2:30 PM",
+        title: "Break Announcement",
+      },
+      {
+        time: "2:45 PM - 4:15 PM",
+        title: "Quarter Finals",
+      },
+      {
+        time: "4:15 PM",
+        title: "Day ends",
+      },
+    ]
+  },
+  day3: {
+    date: "9th June (Sunday)",
+    time: [
+      {
+        time: "7:30 AM - 8:00 AM",
+        title: "Check-In",
+      },
+      {
+        time: "8:00 AM - 10:00 AM",
+        title: "Semi Finals",
+      },
+      {
+        time: "10:00 AM - 10:30 AM",
+        title: "Break",
+      },
+      {
+        time: "10:30 AM - 12:00 PM",
+        title: "Grand Final",
+      },
+      {
+        time: "12:30 PM - 1:30 PM",
+        title: "Closing Ceremony",
+      },
+      {
+        time: "1:30 PM",
+        title: "Day ends",
+      },
+    ]
+  },
 };
 
 const references = [
@@ -543,15 +647,15 @@ const briefings = [
 const motions = [
   {
     title: "Round 1",
-    desc: "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies", 
+    desc: "This House Believes That the environmental movement should significantly prioritize their campaigning efforts on changing the behaviour of individuals rather than changing the behaviour of companies",
     className: "md:col-span-1",
   },
-   {
+  {
     title: "Round 4",
     desc: "This House Supports governments significantly increasing their use of big data-based predictive models in decision-making to replace human judgements. (e.g. criminaljustice policy, allocation of healthcare resources, housing development)",
     className: "md:col-span-2",
   },
-   {
+  {
     title: "Grand Final",
     desc: "This House Believes That developing countries should acquire, on the open market, large stakes in major publicly-traded global corporations (eg. Google, JP Morgan, Shell, and Pfizer).",
     className: "md:col-span-3",

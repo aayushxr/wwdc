@@ -1,7 +1,6 @@
-import Page from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { core, coreteach, org, orgteach, twentythree, twentytwo } from "@/data";
+import { twentythree } from "@/data";
 import Image from "next/image";
 import {
   Dialog,
@@ -31,14 +30,7 @@ export default function Home() {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-zinc-300 [mask-image:radial-gradient(ellipse_at_center,transparent_30%,white)]"></div>
 
         <div className="flex items-start justify-center z-20 ">
-          <div className=" ">
-            {/* <h1 className="text-4xl max-w-6xl relative z-50 text-center font-bold leading-snug tracking-tight text-zinc-900 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-          Organising Committee
-        </h1>
-        <p className="py-5 text-lg text-center leading-normal text-zinc-500 lg:text-xl xl:text-xl dark:text-zinc-300">
-          Organising Committee and Core Organising Committee of War of Words
-          2024
-        </p> */}
+          <div>
             <div className="relative flex flex-col z-50 items-center justify-center  ">
               <div className="mx-auto max-w-7xl px-4  py-10 md:px-6">
                 <div className="flex flex-col items-center justify-center space-y-4 pb-4 text-center">

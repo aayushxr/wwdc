@@ -2,7 +2,7 @@ import Page from "@/components/header";
 import { leaders } from "@/data";
 import Image from "next/image";
 
-export default function Breif() {
+export default function Brief() {
   return (
     <Page title="Our Leaders" desc="">
       <div>

@@ -1,4 +1,3 @@
-import { BackgroundGradient } from "@/components/card";
 import Page from "@/components/header";
 import { InfiniteMovingCards } from "@/components/moving-cards";
 import Link from "next/link";
@@ -10,8 +9,8 @@ import {
   Card,
 } from "@/components/ui/card";
 
-export default function Breif() {
-  const testimonials = [
+export default function Brief() {
+  const images = [
     {
       name: "1",
       title: "https://cdn.aayus.me/uploads/dddd.png",
@@ -105,7 +104,7 @@ export default function Breif() {
 
         <div className="h-[20rem] hidden rounded-md md:flex flex-col antialiased bg-transparent dark:bg-black dark:bg-dot-white/[0.05] items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
-            items={testimonials}
+            items={images}
             direction="right"
             speed="slow"
           />

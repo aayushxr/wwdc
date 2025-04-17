@@ -77,25 +77,21 @@ const LandingNavbar = () => {
                       <ProductItem
                         title="Tournament"
                         href="/2023/tournament"
-                        src="https://assets.aceternity.com/demos/algochurn.webp"
                         description="The 2023 edition of the War of the Words Debate Tournament."
                       />
                       <ProductItem
                         title="Motions"
                         href="/2023/motions"
-                        src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
                         description="The motions for the 2023 edition of the War of the Words Debate Tournament."
                       />
                       <ProductItem
                         title="Organising Committee"
                         href="/2023/org"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
                         description="The Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
                       />
                       <ProductItem
                         title="Core Organising Committee"
                         href="/2023/org/core"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
                         description="The Core Organising Committee for the 2023 edition of the War of the Words Debate Tournament."
                       />
                     </div>
@@ -106,25 +102,21 @@ const LandingNavbar = () => {
                       <ProductItem
                         title="Tournament"
                         href="/2022/tournament"
-                        src="https://assets.aceternity.com/demos/algochurn.webp"
                         description="The 2022 edition of the War of the Words Debate Tournament."
                       />
                       <ProductItem
                         title="Motions"
                         href="/2022/motions"
-                        src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
                         description="The motions for the 2022 edition of the War of the Words Debate Tournament."
                       />
                       <ProductItem
                         title="Organising Committee"
                         href="/2022/org"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
                         description="The Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
                       />
                       <ProductItem
                         title="Core Organising Committee"
                         href="/2022/org/core"
-                        src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
                         description="The Core Organising Committee for the 2022 edition of the War of the Words Debate Tournament."
                       />
                     </div>
